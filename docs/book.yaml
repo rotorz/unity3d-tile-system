@@ -1,0 +1,349 @@
+title: User Guide for Rotorz Tile System
+author: Rotorz Limited
+
+
+sourceBaseUrl: https://github.com/kruncher/test/blob/master/docs/
+
+tocRootTopic: ./topics/Home.md
+tocDepth: 2
+
+
+assetDirectoryNames:
+  - img
+
+
+special:
+  - source: ./special/_Footer.md
+  - source: ./special/_Sidebar.md
+
+
+topics:
+  - source: ./topics/Home.md
+    topics:
+    - source: ./topics/Getting-Started.md
+      topics:
+        - source: ./topics/Key-Features.md
+        - source: ./topics/Installation.md
+        - source: ./topics/Project-Workflow.md
+
+    - source: ./topics/User-Interface.md
+      topics:
+        - source: ./topics/Tool-Palette.md
+        - source: ./topics/Scene-Palette.md
+        - source: ./topics/Brush-Palette.md
+        - source: ./topics/Designer-Window.md
+          topics:
+            - source: ./topics/Brush-Designer.md
+            - source: ./topics/Tileset-Designer.md
+              topics:
+                - source: ./topics/Tileset-Brush-Creator-Tab.md
+                - source: ./topics/Tileset-Modify-Tileset-Tab.md
+                - source: ./topics/Tileset-Info-Tab.md
+                - source: ./topics/Lookup-Tileset-Brush.md
+            - source: ./topics/Showing-Brush-in-Designer.md
+            - source: ./topics/Showing-Tileset-in-Designer.md
+            - source: ./topics/Locking-the-Designer.md
+            - source: ./topics/Selection-History.md
+            - source: ./topics/Designer-Keyboard-Shortcuts.md
+              navtitle: Keyboard Shortcuts
+        - source: ./topics/User-Preferences.md
+
+    - source: ./topics/Tile-Systems.md
+      topics:
+        - source: ./topics/Chunks.md
+          topics:
+            - source: ./topics/Changing-the-Chunk-Size.md
+        - source: ./topics/Creating-a-Tile-System.md
+          topics:
+            - source: ./topics/Tile-System-Creation-Presets.md
+              navtitle: Presets
+              topics:
+                - source: ./topics/Creating-a-Preset.md
+                - source: ./topics/Modifying-a-Preset.md
+                - source: ./topics/Deleting-a-Preset.md
+        - source: ./topics/Position,-Rotate-and-Scale.md
+        - source: ./topics/Using-the-Tile-System-Inspector.md
+        - source: ./topics/Changing-Cell-Size.md
+        - source: ./topics/Repairing-a-Tile-System.md
+        - source: ./topics/Clearing-a-Tile-System.md
+        - source: ./topics/Tile-System-Optimization.md
+          topics:
+            - source: ./topics/Vertex-Snapping.md
+            - source: ./topics/Smoothing.md
+            - source: ./topics/Stripping.md
+            - source: ./topics/Tile-System-Build-Options.md
+            - source: ./topics/Tile-System-Runtime-Options.md
+            - source: ./topics//Building-Prefab-from-Tile-System.md
+            - source: ./topics/Building-Entire-Scene.md
+
+    - source: ./topics/Painting.md
+      topics:
+        - source: ./topics/Tools.md
+          topics:
+            - source: ./topics/Common-Tool-Options.md
+            - source: ./topics/Deactivate-Tool.md
+            - source: ./topics/Paint-Tool.md
+            - source: ./topics/Cycle-Tool.md
+            - source: ./topics/Fill-Tool.md
+            - source: ./topics/Picker-Tool.md
+            - source: ./topics/Line-Tool.md
+            - source: ./topics/Rectangle-Tool.md
+            - source: ./topics/Spray-Tool.md
+            - source: ./topics/Plop-Tool.md
+        - source: ./topics/Switching-Between-Tile-Systems.md
+        - source: ./topics/Status-Panel.md
+        - source: ./topics/Tweaking-Tiles.md
+        - source: ./topics/Replace-by-Brush.md
+        - source: ./topics/Refreshing-a-Single-Tile.md
+        - source: ./topics/Refreshing-all-Painted-Tiles.md
+
+    - source: ./topics/Brushes.md
+      topics:
+        - source: ./topics/Designing-Brushes.md
+          topics:
+            - source: ./topics/Brush-Categories.md
+              topics:
+                - source: ./topics/Adding-a-Brush-Category.md
+                - source: ./topics/Removing-a-Brush-Category.md
+            - source: ./topics/Common-Brush-Properties.md
+            - source: ./topics/Extended-Properties.md
+            - source: ./topics/Offset,-Rotate-and-Scale-Prefabs.md
+            - source: ./topics/Remapping-Materials.md
+        - source: ./topics/Oriented-Brushes.md
+          topics:
+            - source: ./topics/What-is-an-Orientation.md
+            - source: ./topics/Variation-Weights.md
+            - source: ./topics/Coalesce-Mode.md
+            - source: ./topics/Fallback-Orientation.md
+            - source: ./topics/Creating-an-Oriented-Brush.md
+            - source: ./topics/Define-or-Find-Orientation.md
+            - source: ./topics/Set-Default-Orientation.md
+            - source: ./topics/Remove-Orientation.md
+            - source: ./topics/Add-Variation.md
+            - source: ./topics/Remove-Variation.md
+            - source: ./topics/Looking-up-a-Variation.md
+            - source: ./topics/Reorder-Variation.md
+            - source: ./topics/Copy-Variation.md
+        - source: ./topics/Alias-Brushes.md
+          topics:
+            - source: ./topics/Overriding-Properties.md
+            - source: ./topics/Creating-an-Alias-Brush.md
+        - source: ./topics/Empty-Brushes.md
+          topics:
+            - source: ./topics/Creating-an-Empty-Brush.md
+        - source: ./topics/Master-Brushes.md
+          topics:
+            - source: ./topics/Creating-a-Master-Brush.md
+        - source: ./topics/Hiding-a-Brush.md
+        - source: ./topics/Duplicating-a-Brush.md
+        - source: ./topics/Deleting-a-Brush.md
+
+    - source: ./topics/Tilesets.md
+      topics:
+        - source: ./topics/Edge-Correction.md
+          topics:
+            - source: ./topics/Without-Edge-Correction.md
+            - source: ./topics/Edge-Correction-with-Borders.md
+            - source: ./topics/Edge-Correction-with-Delta-and-UV-Inset.md
+        - source: ./topics/Procedural-and-Non-Procedural-Tiles.md
+          navtitle: Procedural and Non-Procedural
+          topics:
+            - source: ./topics/Procedural-Tiles.md
+            - source: ./topics/Non-Procedural-Tiles.md
+            - source: ./topics/Default-Tileset-Procedural-Setting.md
+        - source: ./topics/Working-with-Tilesets.md
+          topics:
+            - source: ./topics/Creating-a-Tileset.md
+            - source: ./topics/Locating-Atlas-Material.md
+            - source: ./topics/Changing-Atlas-Texture.md
+            - source: ./topics/Cleanup-Unused-Meshes.md
+            - source: ./topics/Deleting-a-Tileset.md
+        - source: ./topics/Tileset-Brushes.md
+          topics:
+            - source: ./topics/Tileset-Brush-Properties.md
+            - source: ./topics/Creating-Tileset-Brushes.md
+        - source: ./topics/Autotile-Tilesets.md
+          topics:
+            - source: ./topics/Autotile-Artwork.md
+            - source: ./topics/Autotile-Expansion.md
+            - source: ./topics/Working-with-Autotile-Tilesets.md
+              topics:
+                - source: ./topics/Creating-an-Autotile-Tileset.md
+                - source: ./topics/Regenerate-from-Autotile-Artwork.md
+                - source: ./topics/Modifying-an-Autotile-Tileset.md
+            - source: ./topics/Autotile-Brushes.md
+              topics:
+                - source: ./topics/Autotile-Brush-Properties.md
+                - source: ./topics/Creating-an-Autotile-Brush.md
+
+    - source: ./topics/Runtime-Scripting.md
+      topics:
+        - source: ./topics/Consequences-of-Stripping.md
+        - source: ./topics/Creating-a-Tile-System-Dynamically.md
+        - source: ./topics/Painting-at-Runtime.md
+        - source: ./topics/Accessing-Tiles.md
+
+    - source: ./topics/Editor-Scripting.md
+      topics:
+        - source: ./topics/Custom-Tools.md
+
+    - source: ./topics/Frequently-Asked-Questions.md
+
+    - source: ./topics/Troubleshooting.md
+      tocExcludeChildren: true
+      topics:
+        - source: ./topics/Unable-to-paint-on-tile-system.md
+        - source: ./topics/Changes-not-reflected-when-brush-is-modified.md
+        - source: ./topics/Chunk-size-too-large-for-procedural-mesh.md
+        - source: ./topics/Build-error-when-attempting-to-merge-tile-meshes.md
+        - source: ./topics/Actor-passes-through-inner-tiles-of-smooth-platform.md
+        - source: ./topics/Tiles-not-positioned,-rotated-or-scaled-as-expected.md
+        - source: ./topics/Editor-performs-slowly-with-lots-of-tiles.md
+        - source: ./topics/Visual-'glitches'-between-tiles.md
+        - source: ./topics/Poor-texture-alignment-in-tileset-brushes.md
+        - source: ./topics/Transparency-not-working-with-tileset-brushes.md
+        - source: ./topics/Updated-tileset-not-reflected.md
+        - source: ./topics/Brush-asset-appears-to-be-missing-or-broken.md
+
+    - source: ./topics/Glossary.md
+
+  - source: ./topics/Table-of-Contents.md
+
+
+referenceTable:
+  - type: sourceonly
+    source:
+      - ./topics/Alias-Brushes.md
+    target:
+      - ./topics/Remapping-Materials.md
+  
+  
+  - type: targetonly
+    source:
+      - ./topics/Edge-Correction-with-Borders.md
+    target:
+      - ./topics/autotile-expansion-automatic-borders.md
+
+  - type: sourceonly
+    source:
+      - ./topics/Tileset-Brush-Properties.md
+    target:
+      - ./topics/Common-Brush-Properties.md
+      - ./topics/Extended-Properties.md
+
+  - type: sourceonly
+    source:
+      - ./topics/Autotile-Brush-Properties.md
+    target:
+      - ./topics/Common-Brush-Properties.md
+      - ./topics/Extended-Properties.md
+      - ./topics/Tileset-Brush-Properties.md
+    
+  - type: sourceonly
+    source:
+      - ./topics/Creating-an-Autotile-Brush.md
+    target:
+      - ./topics/Creating-Tileset-Brushes.md
+
+  - source:
+      - ./topics/Creating-an-Autotile-Brush.md
+    target:
+      - ./topics/Creating-an-Autotile-Tileset.md
+    
+  - type: sourceonly
+    source:
+      - ./topics/Deleting-a-Tileset.md
+    target:
+      - ./topics/Repairing-a-Tile-System.md
+
+  - source:
+      - ./topics/Working-with-Tilesets.md
+    target:
+      - ./topics/Working-with-Autotile-Tilesets.md
+  
+
+  - type: sourceonly
+    source:
+      - ./topics/Master-Brushes.md
+    target:
+      - ./topics/Creating-an-Alias-Brush.md
+      - ./topics/Duplicating-a-Brush.md
+  
+
+  - source:
+      - ./topics/Changes-not-reflected-when-brush-is-modified.md
+    target:
+      - ./topics/Refreshing-all-Painted-Tiles.md
+      - ./topics/Refreshing-a-Single-Tile.md
+    
+  - source:
+      - ./topics/Chunk-size-too-large-for-procedural-mesh.md
+    target:
+      - ./topics/Changing-the-Chunk-Size.md
+    
+  - type: sourceonly
+    source:
+      - ./topics/Tiles-not-positioned,-rotated-or-scaled-as-expected.md
+    target:
+      - ./topics/Offset,-Rotate-and-Scale-Prefabs.md
+    
+  - source:
+      - ./topics/Poor-texture-alignment-in-tileset-brushes.md
+    target:
+      - ./topics/Edge-Correction.md
+    
+  - source:
+      - ./topics/Updated-tileset-not-reflected.md
+    target:
+      - ./topics/Refreshing-all-Painted-Tiles.md
+  
+
+  - source:
+      - ./topics/Brushes.md
+    target:
+      - ./topics/Brush-Designer.md
+
+  - source:
+      - ./topics/Brush-Categories.md
+    target:
+      - ./topics/Brush-Palette.md
+
+  - source:
+      - ./topics/Fallback-Orientation.md
+    target:
+      - ./topics/Set-Default-Orientation.md
+
+  - source:
+      - ./topics/Tilesets.md
+    target:
+      - ./topics/Tileset-Designer.md
+
+  - source:
+      - ./topics/Working-with-Tilesets.md
+    target:
+      - ./topics/Tileset-Designer.md
+      - ./topics/Lookup-Tileset-Brush.md
+
+  - source:
+      - ./topics/Changing-Atlas-Texture.md
+      - ./topics/Regenerate-from-Autotile-Artwork.md
+    target:
+      - ./topics/Showing-Tileset-in-Designer.md
+      - ./topics/Tileset-Modify-Tileset-Tab.md
+      - ./topics/Default-Tileset-Procedural-Setting.md
+
+  - source:
+      - ./topics/Creating-Tileset-Brushes.md
+    target:
+      - ./topics/Creating-a-Tileset.md
+      - ./topics/Tileset-Brush-Creator-Tab.md
+
+  - type: sourceonly
+    source:
+      - ./topics/Tileset-Brushes.md
+      - ./topics/Autotile-Brushes.md
+    target:
+      - ./topics/Designing-Brushes.md
+      - ./topics/Hiding-a-Brush.md
+      - ./topics/Duplicating-a-Brush.md
+      - ./topics/Deleting-a-Brush.md

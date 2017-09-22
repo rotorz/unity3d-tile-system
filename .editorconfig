@@ -1,0 +1,22 @@
+; Grab the EditorConfig extension for Visual Studio:
+; https://visualstudiogallery.msdn.microsoft.com/c8bccfe2-650c-4b42-bc5c-845e21f96328
+
+; Top-most EditorConfig file
+root = true
+
+; Unix-style newlines with a newline ending every file
+[*]
+end_of_line = LF
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.{md,yaml}]
+trim_trailing_whitespace = false
+
+[*.{js,json,yaml,html,css,styl}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
