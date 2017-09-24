@@ -1,0 +1,3460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Rotorz Limited. All rights reserved.
+# This file is distributed under the same license as the rotorz/unity3d-tile-system package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rotorz/unity3d-tile-system\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Editor/Brush/BrushEditor.cs:58
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:53
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:171
+msgctxt "Action"
+msgid "Goto Tileset"
+msgstr ""
+
+#: Editor/Brush/BrushEditor.cs:65 Editor/Brush/TilesetEditor.cs:66
+#: Editor/Window/BrushList/BrushListControl.cs:1019
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:163
+msgctxt "Action"
+msgid "Show in Designer"
+msgstr ""
+
+#: Editor/Brush/BrushEditor.cs:84
+msgid "Please use designer to edit brush."
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:29
+msgctxt "BrushCreator|TabLabel"
+msgid "Alias"
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:34
+msgid "Create new alias brush"
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:41
+msgid ""
+"Create new brush that is based upon an existing brush to override properties "
+"and materials."
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:48
+msgid "Select target brush to create an alias of:"
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:53
+msgid "Note: You cannot create an alias of another alias brush."
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:80
+msgid "Target brush was not specified"
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:81
+msgid "Select the brush that you would like to create an alias of."
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:82
+#: Editor/Brush/Creator/AliasBrushCreator.cs:96
+#: Editor/Brush/Creator/BrushCreator.cs:301
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:96
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:424
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:332
+#: Editor/Builder/BuildUtility.cs:248 Editor/Builder/BuildUtility.cs:344
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:138
+#: Editor/Utility/TileSystemCommands.cs:136
+#: Editor/Window/BuildTileSystemWindow.cs:265
+#: Editor/Window/BuildTileSystemWindow.cs:277
+#: Editor/Window/BuildTileSystemWindow.cs:289
+#: Editor/Window/CreateTileSystemWindow.cs:339
+#: Editor/Window/CreateTileSystemWindow.cs:346
+#: Editor/Window/CreateTileSystemWindow.cs:366
+#: Editor/Window/CreateTileSystemWindow.cs:401
+#: Editor/Window/CreateTileSystemWindow.cs:411
+#: Editor/Window/ReplaceByBrushWindow.cs:278
+#: Editor/Window/ReplaceByBrushWindow.cs:292
+#: Editor/Window/ReplaceByBrushWindow.cs:301
+msgctxt "Action"
+msgid "Close"
+msgstr ""
+
+#: Editor/Brush/Creator/AliasBrushCreator.cs:90
+msgid "Unable to create alias brush"
+msgstr ""
+
+#. 0: class of target brush
+#: Editor/Brush/Creator/AliasBrushCreator.cs:93
+#, csharp-format
+msgid "No alias designer was registered for '{0}'"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:70
+msgctxt "BrushCreator|TabLabel"
+msgid "Autotile"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:75
+msgid "Create new autotile tileset"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:106
+#: Editor/Brush/Creator/AutotileCreator.cs:130
+#: Editor/Brush/Creator/TilesetCreator.cs:111
+msgid "No previews to display..."
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:114
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:281
+msgctxt "Action"
+msgid "Refresh Previews"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:152
+msgctxt "Property"
+msgid "Artwork includes inner joins"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:240
+#: Editor/Brush/Creator/TilesetCreator.cs:164
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:281
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:178
+msgctxt "Property"
+msgid "Tile Width (px)"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:242
+#: Editor/Brush/Creator/TilesetCreator.cs:167
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:283
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:180
+msgctxt "Property"
+msgid "Tile Height (px)"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:252
+#: Editor/Brush/Creator/TilesetCreator.cs:172
+msgctxt "Property"
+msgid "Alpha Blending"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:259
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:308
+msgctxt "Property"
+msgid "Clamp Edges"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:260
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:309
+msgid ""
+"Indicates if outer edges should always be clamped. Often not appropriate "
+"when secondary tile acts as ground."
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:275
+#: Editor/Brush/Creator/TilesetCreator.cs:184
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:326
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:199
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:157
+msgid "Edge Correction"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:278
+#: Editor/Brush/Creator/AutotileCreator.cs:299
+#: Editor/Brush/Creator/TilesetCreator.cs:188
+#: Editor/Brush/Creator/TilesetCreator.cs:209
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:330
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:351
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:203
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:224
+msgctxt "Property"
+msgid "Border Size (px)"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:281
+#: Editor/Brush/Creator/AutotileCreator.cs:302
+#: Editor/Brush/Creator/TilesetCreator.cs:191
+#: Editor/Brush/Creator/TilesetCreator.cs:212
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:333
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:354
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:206
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:227
+msgctxt "Property"
+msgid "Delta (% of 1px)"
+msgstr ""
+
+#. 0: width of atlas texture in pixels
+#. 1: height of atlas texture in pixels
+#. 2: percentage of unused area of atlas texture
+#: Editor/Brush/Creator/AutotileCreator.cs:366
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:81
+#, csharp-format
+msgid "Output Atlas: {0}x{1}   Unused: {2}%"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:391
+msgid "Autotile artwork was not specified"
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:392
+msgid "Autotile artwork must be specified that can be expanded into an atlas."
+msgstr ""
+
+#: Editor/Brush/Creator/AutotileCreator.cs:393
+#: Editor/Brush/Creator/BrushCreator.cs:332
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:83
+#: Editor/Brush/Creator/TilesetCreator.cs:238
+#: Editor/Brush/Creator/TilesetCreator.cs:248
+#: Editor/Brush/Designer/BrushDesignerView.cs:605
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1112
+#: Editor/Brush/Designer/TilesetDesigner.cs:333
+#: Editor/UserData/ProjectSettingsInspector.cs:183
+#: Editor/Window/DefineOrientationWindow.cs:342
+#: Editor/Window/SelectBrushCategoriesWindow.cs:145
+msgctxt "Action"
+msgid "OK"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:246
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:360
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:426
+#: Editor/Window/CreateTileSystemWindow.cs:314
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:244
+msgctxt "Action"
+msgid "Create"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:253
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1573
+#: Editor/Builder/BuildUtility.cs:163 Editor/Builder/BuildUtility.cs:205
+#: Editor/Builder/BuildUtility.cs:227 Editor/TileSystemInspector.cs:324
+#: Editor/Utility/TileSystemCommands.cs:150
+#: Editor/Window/BuildTileSystemWindow.cs:171
+#: Editor/Window/CleanupTilesetMeshesWindow.cs:88
+#: Editor/Window/CreateTileSystemWindow.cs:321
+#: Editor/Window/DefineOrientationWindow.cs:348
+#: Editor/Window/DeleteTilesetWindow.cs:141
+#: Editor/Window/EditFlagLabelsWindow.cs:184
+#: Editor/Window/RefreshTilesWindow.cs:102
+#: Editor/Window/SelectBrushCategoriesWindow.cs:153
+msgctxt "Action"
+msgid "Cancel"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:299
+msgid "Invalid name for asset"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:300
+msgid ""
+"Can only use alphanumeric characters (A-Z a-z 0-9), hyphens (-), underscores "
+"(_) and spaces.\n"
+"\n"
+"Name must begin with an alphanumeric character."
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:330
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:81
+msgid "Asset already exists"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:331
+msgid "Please specify unique name for asset."
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:350
+msgctxt "Property"
+msgid "Name:"
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:357
+msgid ""
+"Must start with alphanumeric character (A-Z a-z 0-9) and can contain hyphens "
+"(-), underscores (_) and spaces."
+msgstr ""
+
+#: Editor/Brush/Creator/BrushCreator.cs:369
+msgctxt "Property"
+msgid "Tileset Name:"
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:29
+msgctxt "BrushCreator|TabLabel"
+msgid "Duplicate"
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:34
+msgid "Create duplicate of an existing brush"
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:47
+msgid "Select target brush to create duplicate from:"
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:82
+msgid "Tileset already contains a brush with that name."
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:94
+msgid "Target brush not specified"
+msgstr ""
+
+#: Editor/Brush/Creator/DuplicateBrushCreator.cs:95
+msgid "Select the brush to duplicate."
+msgstr ""
+
+#: Editor/Brush/Creator/EmptyBrushCreator.cs:27
+msgctxt "BrushCreator|TabLabel"
+msgid "Empty"
+msgstr ""
+
+#: Editor/Brush/Creator/EmptyBrushCreator.cs:32
+msgid "Create new empty brush"
+msgstr ""
+
+#: Editor/Brush/Creator/EmptyBrushCreator.cs:39
+msgid "Create brush whose tiles have no visual representation."
+msgstr ""
+
+#: Editor/Brush/Creator/OrientedBrushCreator.cs:27
+msgctxt "BrushCreator|TabLabel"
+msgid "Oriented"
+msgstr ""
+
+#: Editor/Brush/Creator/OrientedBrushCreator.cs:32
+msgid "Create new oriented brush"
+msgstr ""
+
+#: Editor/Brush/Creator/OrientedBrushCreator.cs:40
+msgid ""
+"Simple brushes can be created by adding one or more tile variations to the "
+"default orientation. Additional orientations can be defined so that tiles "
+"are painted based upon neighboring tiles."
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:51
+msgctxt "BrushCreator|TabLabel"
+msgid "Tileset"
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:56
+msgid "Create new tileset"
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:64
+msgid "Two-dimensional tile brushes can be created from a tileset."
+msgstr ""
+
+#. 0: name of the similar tileset
+#: Editor/Brush/Creator/TilesetCreator.cs:94
+#, csharp-format
+msgid "Another similar tileset '{0}' exists that uses the same atlas texture."
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:101
+msgid "Texture is not power of two and/or is not square."
+msgstr ""
+
+#. _alpha = GUILayout.Toggle(_alpha, "Alpha Blending");
+#: Editor/Brush/Creator/TilesetCreator.cs:173
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:680
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:301
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:187
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:184
+msgctxt "Property"
+msgid "Procedural"
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:236
+msgid "Tileset already exists"
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:237
+msgid "Please specify unique name for tileset."
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:246
+msgid "Texture was not specified"
+msgstr ""
+
+#: Editor/Brush/Creator/TilesetCreator.cs:247
+msgid "Texture must be specified before creating tileset."
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:56
+msgctxt "Action"
+msgid "Goto Target Brush"
+msgstr ""
+
+#. Draw preview.
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:83
+msgid "Double-click to edit target..."
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:109
+msgctxt "Property"
+msgid "Alias Target:"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:119
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:126
+msgctxt "Action"
+msgid "Revert To Target"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:121
+msgctxt "Dialog Title"
+msgid "Confirmation"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:122
+msgid "Revert properties of alias brush to target brush?"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:123
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1572
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1680
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:434
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:342
+#: Editor/Builder/BuildUtility.cs:181
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:329
+#: Editor/TileSystemInspector.cs:455 Editor/Utility/TileSystemCommands.cs:30
+#: Editor/Utility/TileSystemCommands.cs:187
+#: Editor/Utility/TileSystemCommands.cs:219
+#: Editor/Utility/TileSystemCommands.cs:253
+#: Editor/Utility/TransformUtility.cs:95
+#: Editor/Window/BuildTileSystemWindow.cs:229
+#: Editor/Window/CreateTileSystemWindow.cs:376
+msgctxt "Action"
+msgid "Yes"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:124
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1681
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:435
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:343
+#: Editor/Builder/BuildUtility.cs:182
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:330
+#: Editor/TileSystemInspector.cs:456 Editor/Utility/TileSystemCommands.cs:31
+#: Editor/Utility/TileSystemCommands.cs:188
+#: Editor/Utility/TileSystemCommands.cs:220
+#: Editor/Utility/TileSystemCommands.cs:254
+#: Editor/Utility/TransformUtility.cs:96
+#: Editor/Window/BuildTileSystemWindow.cs:230
+#: Editor/Window/CreateTileSystemWindow.cs:377
+msgctxt "Action"
+msgid "No"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:149
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:199
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:140
+msgid "Automatic Orientations"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:173
+msgctxt "Action"
+msgid "Set Target"
+msgstr ""
+
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:182
+msgid "Cannot create alias of another alias brush."
+msgstr ""
+
+#. 0: nicified name of the target brush class (i.e. 'Uber Oriented Brush')
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:196
+#, csharp-format
+msgid "Cannot create alias of the unregistered brush '{0}'."
+msgstr ""
+
+#. 0: name of the target brush (i.e. 'Grass Platform')
+#: Editor/Brush/Designer/AliasBrushDesigner.cs:207
+#, csharp-format
+msgid "Cannot create alias of '{0}'."
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:39
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:141
+msgctxt "Property"
+msgid "From Tileset"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:43
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:130
+msgctxt "Property"
+msgid "Layout"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:48
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:131
+msgctxt "Property"
+msgid "Inner Joins"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:51
+#: Editor/Window/BrushList/BrushListControl.cs:623
+msgctxt "Status|Unknown"
+msgid "?"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:57
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:152
+msgctxt "Property"
+msgid "Tile Width"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:61
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:156
+msgctxt "Property"
+msgid "Tile Height"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:77
+#: Editor/Brush/Designer/EmptyBrushDesigner.cs:20
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:591
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:235
+msgctxt "Property"
+msgid "Always Add Container"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:78
+#: Editor/Brush/Designer/EmptyBrushDesigner.cs:21
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:592
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:236
+msgid "Add tile container object even when not needed by brush."
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:91
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:603
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:249
+msgctxt "Property"
+msgid "Attach Prefab"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:92
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:604
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:250
+msgid "Additional game objects can be painted by attaching a prefab."
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:133
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:729
+msgid "Edge Tiles"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:136
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:158
+#: Editor/Brush/Designer/BrushDesignerView.cs:1156
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:690
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:732
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:750
+msgctxt "Flaggable"
+msgid "Solid Flag"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:137
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:159
+#: Editor/Brush/Designer/BrushDesignerView.cs:1157
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:691
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:775
+msgid ""
+"Solid flag can be used to assist with user defined collision detection or "
+"pathfinding."
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:143
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:165
+#: Editor/Brush/Designer/EmptyBrushDesigner.cs:28
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:698
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:738
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:756
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:216
+msgctxt "Property"
+msgid "Add Collider"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:144
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:166
+#: Editor/Brush/Designer/EmptyBrushDesigner.cs:29
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:699
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:739
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:757
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:217
+msgid "Automatically adds box collider to painted tile."
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:155
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:747
+msgid "Inner Tiles"
+msgstr ""
+
+#: Editor/Brush/Designer/AutotileBrushDesigner.cs:191
+msgid ""
+"Edge and Inner 'solid' flag can be used for custom collision detection. "
+"Avoid inner colliders where possible."
+msgstr ""
+
+#. Enables static optimization
+#: Editor/Brush/Designer/BrushDesignerView.cs:213
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:581
+msgctxt "Property"
+msgid "Static"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:214
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:582
+msgid "Static tiles can be combined when optimizing tile systems."
+msgstr ""
+
+#. Enables smooth visual joins
+#: Editor/Brush/Designer/BrushDesignerView.cs:228
+msgctxt "Property"
+msgid "Smooth"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:229
+msgid "Recalculates normals of touching vertices for smoother joins."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:266
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:575
+msgctxt "Property"
+msgid "Category"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:308
+#: Editor/Brush/Designer/BrushDesignerView.cs:312
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:563
+msgctxt "Property"
+msgid "Tag"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:313
+msgid "Tick to override tag of painted tiles."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:339
+#: Editor/Brush/Designer/BrushDesignerView.cs:343
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:569
+msgctxt "Property"
+msgid "Layer"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:344
+msgid "Tick to override layer of painted tiles."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:386
+#: Editor/Brush/Designer/TilesetDesigner.cs:196
+msgctxt "Action"
+msgid "Restore Current Name"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:397
+#: Editor/Brush/Designer/TilesetDesigner.cs:206
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:402
+msgctxt "Action"
+msgid "Rename"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:417
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:553
+msgctxt "Property"
+msgid "Group #"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:418
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:554
+msgid ""
+"Logical group that brush belongs to. This is used when specifying more "
+"advanced coalescing rules."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:425
+msgctxt "Property"
+msgid "Force Legacy Sideways"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:426
+msgid "Forces legacy behavior for tile systems with sideways facing tiles."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:474
+msgctxt "Property"
+msgid "Disable immediate preview"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:475
+msgid "In-editor preview of tile can be disabled on a per brush basis."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:486
+msgid "Custom Preview"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:491
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:668
+msgid "Flags"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:513
+msgid "Brush Menu"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:547
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:185
+msgctxt "Action"
+msgid "Reveal Asset"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:554
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:192
+msgctxt "Action"
+msgid "Refresh Preview"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:562
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:199
+msgctxt "Action"
+msgid "Create Duplicate"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:568
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:206
+msgctxt "Action"
+msgid "Create Alias"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:574
+#: Editor/Utility/TileSystemCommands.cs:24
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:213
+msgctxt "Action"
+msgid "Delete Brush"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:603
+msgctxt "Error"
+msgid "Was unable to rename brush"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:623
+#: Editor/Brush/Designer/TilesetDesigner.cs:297
+msgctxt "Action"
+msgid "Help"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:628
+#: Editor/Brush/Designer/TilesetDesigner.cs:302
+#: Editor/TileSystemInspector.cs:949
+#: Editor/Window/CreateTileSystemWindow.cs:270
+msgctxt "Action"
+msgid "Show Tips"
+msgstr ""
+
+#. Button to define new mapping.
+#: Editor/Brush/Designer/BrushDesignerView.cs:679
+#: Editor/Brush/Designer/Helper/BrushDesignerMaterialMapper.cs:71
+#: Editor/Brush/Designer/Helper/BrushDesignerMaterialMapper.cs:140
+msgctxt "Action"
+msgid "Add Material Mapping"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:686
+msgid "Material Mapper"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:757
+msgctxt "Property"
+msgid "Override Transforms"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:758
+msgid "Overrides transform of target brush."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:776
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:628
+msgctxt "Property"
+msgid "Apply Prefab Transform"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:777
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:629
+msgid ""
+"Tick to use prefab transform to offset position, rotation and scale of "
+"painted tiles."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:784
+msgctxt "Property"
+msgid "Apply Simple Rotation"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:785
+msgid "Applies simple tile rotation to tile object."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:799
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:636
+msgctxt "Property"
+msgid "Scale Mode"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:800
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:637
+msgid "Specifies the way in which painted tiles should be scaled."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:890
+msgctxt "Property"
+msgid "Coalesce Mode"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:891
+msgid ""
+"Specifies how adjacent tiles should coalesce (or \"join\") with one another."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:898
+msgctxt "Property"
+msgid "With Group #"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:899
+msgid "List of brush group numbers that painted tiles should coalesce with."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:912
+msgctxt "Property"
+msgid "Coalesce with Rotated"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:913
+msgid ""
+"Indicates if painted tiles should coalesce with those of a different "
+"rotation."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:920
+msgctxt "Property"
+msgid "Coalesce with Border"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:921
+msgid "Indicates if painted tiles should coalesce with tile system boundaries."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1036
+#: Editor/TileSystemInspector.cs:407
+msgctxt "Action"
+msgid "Clear"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1045
+msgid ""
+"Power of two recommended\n"
+"\n"
+"i.e. 128x128"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1052
+msgctxt "Property"
+msgid "Use at design time"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1053
+msgid "Tick to use custom preview within Unity editor."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1073
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:797
+msgctxt "Flaggable"
+msgid "Flag"
+msgstr ""
+
+#. i.e. '9: My Ninth Flag'
+#. 0: flag number
+#. 1: flag label
+#: Editor/Brush/Designer/BrushDesignerView.cs:1078
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:802
+#, csharp-format
+msgctxt "Format|UserFlagLabel"
+msgid "{0:00}: {1}"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1103
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:782
+msgid ""
+"Flags can be used in custom scripts. Use of flags is entirely user defined!"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1108
+msgctxt "Property"
+msgid "Force Override Flags"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1109
+msgid "Overrides flags of nested brushes."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1126
+msgctxt "Property"
+msgid "Override Flags"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1127
+msgid "Overrides flags of the target brush."
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1214
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:203
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:834
+#: Editor/Window/SelectBrushCategoriesWindow.cs:123
+msgctxt "Action|Select"
+msgid "All"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1215
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:204
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:835
+#: Editor/Window/BrushList/BrushListControl.cs:1062
+#: Editor/Window/SelectBrushCategoriesWindow.cs:129
+msgctxt "Action|Select"
+msgid "None"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1216
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:205
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:836
+#: Editor/Window/SelectBrushCategoriesWindow.cs:132
+msgctxt "Action|Select"
+msgid "Invert"
+msgstr ""
+
+#: Editor/Brush/Designer/BrushDesignerView.cs:1242
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:859
+msgctxt "Action"
+msgid "Edit Flag Labels"
+msgstr ""
+
+#: Editor/Brush/Designer/Helper/BrushDesignerMaterialMapper.cs:112
+msgctxt "Action"
+msgid "Remove"
+msgstr ""
+
+#: Editor/Brush/Designer/Helper/BrushDesignerMaterialMapper.cs:168
+msgctxt "Action"
+msgid "Remove Material Mapping"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:88
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1548
+msgctxt "Action"
+msgid "Define or Find Orientation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:126
+msgctxt "Property"
+msgid "Override Brush Transforms"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:127
+msgid "Overrides transform of nested brushes."
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:154
+msgctxt "Property"
+msgid "Fallback"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:155
+msgid "Fallback to use when orientation is unavailable."
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:181
+msgctxt "Error"
+msgid "Invalid variation type."
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:186
+msgctxt "Error"
+msgid "Cannot add model to orientation; create a prefab instead."
+msgstr ""
+
+#. 0: name of the thing that cannot be nested
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:204
+#, csharp-format
+msgctxt "Error"
+msgid "{0} cannot be nested within an oriented brush."
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:620
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:627
+msgctxt "Action"
+msgid "Set as default for fallback"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:642
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1678
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1686
+msgctxt "Action"
+msgid "Remove Orientation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:723
+msgctxt "Action"
+msgid "Pick Nestable Brush"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:734
+msgctxt "Action"
+msgid "Pick Prefab"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:893
+msgctxt "Action"
+msgid "Reorder Variation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:894
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1244
+msgctxt "Action"
+msgid "Remove Variation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:951
+msgctxt "Action"
+msgid "Copy Variation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1131
+msgid "Drop prefab or nestable brush here"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1336
+msgctxt "Action"
+msgid "Adjust Variation Weight"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1493
+msgid "Orientation already contains this variation."
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1570
+msgid "Orientation(s) already exist"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1571
+msgid ""
+"One or more orientations already exist which share selected rotational "
+"symmetry.\n"
+"\n"
+"Would you like to remove these and insert a blank orientation?"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1578
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1595
+msgctxt "Action"
+msgid "Define Orientation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1652
+msgctxt "Action"
+msgid "Add Variation"
+msgstr ""
+
+#: Editor/Brush/Designer/OrientedBrushDesigner.cs:1679
+msgid "Do you really want to delete this orientation?"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:50
+msgid "Brush Creator"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:206
+msgctxt "Action|Select"
+msgid "Unused"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:229
+msgctxt "Action"
+msgid "Select"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:252
+msgctxt "Action"
+msgid "Auto Name"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:256
+msgctxt "Action"
+msgid "Clear Names"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:488
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:511
+msgctxt "Action"
+msgid "Edit existing brush"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:545
+msgctxt "Property"
+msgid "Visibility"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:546
+msgid "Allows brush to be hidden from user interfaces."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:657
+msgid "Autotile Brushes"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:663
+msgid "Tileset Brushes"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:681
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:185
+msgid "Allows individual atlas brushes to override property of tileset."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:883
+msgid "Brush Properties"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:897
+msgctxt "Action"
+msgid "Create Brushes"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1110
+#: Editor/UserData/ProjectSettingsInspector.cs:181
+#: Editor/Window/CreateTileSystemWindow.cs:337
+msgctxt "Error"
+msgid "One or more inputs were invalid"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1111
+msgid "Please review inputs and any errors and try again"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1137
+#: Editor/Window/CreateTileSystemWindow.cs:338
+#: Editor/Window/CreateTileSystemWindow.cs:399
+msgctxt "Error"
+msgid "Name was not specified"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1143
+msgctxt "Error"
+msgid "Invalid name"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1151
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1158
+msgctxt "Error"
+msgid "Name was already specified"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/BrushCreatorTab.cs:1167
+msgctxt "Error"
+msgid "Name is already in use"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:20
+msgctxt "TilesetDesigner|TabLabel"
+msgid "Modify Autotile"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:302
+msgid ""
+"Autotile brushes are always procedural, however atlas brushes of an autotile "
+"atlas can be non-procedural if desired."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:391
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:248
+msgctxt "Action"
+msgid "Apply Changes"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:398
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:255
+msgctxt "Action"
+msgid "Revert"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:404
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:261
+msgctxt "Action"
+msgid "Regenerate"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:422
+msgctxt "Error"
+msgid "Autotile artwork was not specified"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:423
+msgid "Please select artwork for autotile before proceeding."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:432
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:340
+msgid "Warning, brushes will be deleted"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:433
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:341
+msgid ""
+"Modified atlas contains fewer tiles than previously. Previously created "
+"brushes that are out of range will be deleted.\n"
+"\n"
+"Would you like to proceed?"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyAutotileTab.cs:447
+msgctxt "Error"
+msgid "Invalid autotile artwork was specified."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:25
+msgctxt "TilesetDesigner|TabLabel"
+msgid "Modify Tileset"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:135
+msgid ""
+"Tiles painted using this tileset will need to be refreshed when switching "
+"between procedural and non-procedural."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:277
+msgid "Tile Previews"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:330
+msgctxt "Error"
+msgid "Atlas texture was not specified"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/ModifyTilesetTab.cs:331
+msgid "Please select an atlas texture before proceeding."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:27
+msgctxt "TilesetDesigner|TabLabel"
+msgid "Info"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:60
+msgctxt "Property"
+msgid "Asset Path:"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:64
+msgctxt "Action"
+msgid "Show In Finder"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:65
+msgctxt "Action"
+msgid "Show In Explorer"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:74
+msgid "Atlas texture is missing."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:80
+msgid ""
+"Atlas texture is not square and/or not a power of two size. This can lead to "
+"poor quality results."
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:94
+msgid "Atlas Texture"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:121
+msgid "Autotile Atlas"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:124
+msgid "Atlas"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:135
+msgctxt "Property"
+msgid "Type"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:135
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:202
+msgid "Procedural"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:135
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:202
+msgid "Non-Procedural"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:138
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:151
+#: Editor/TileSystemInspector.cs:259 Editor/TileSystemInspector.cs:657
+#: Editor/UserData/TileSystemPresetInspector.cs:342
+#: Editor/UserData/TileSystemPresetInspector.cs:487
+msgctxt "Property"
+msgid "Width"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:139
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:152
+#: Editor/TileSystemInspector.cs:257 Editor/TileSystemInspector.cs:650
+#: Editor/UserData/TileSystemPresetInspector.cs:335
+#: Editor/UserData/TileSystemPresetInspector.cs:480
+msgctxt "Property"
+msgid "Height"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:143
+#: Editor/TileSystemInspector.cs:215 Editor/TileSystemInspector.cs:230
+#: Editor/UserData/TileSystemPresetInspector.cs:313
+msgctxt "Property"
+msgid "Rows"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:144
+#: Editor/TileSystemInspector.cs:217 Editor/TileSystemInspector.cs:232
+#: Editor/UserData/TileSystemPresetInspector.cs:320
+msgctxt "Property"
+msgid "Columns"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:149
+msgctxt "Property"
+msgid "Tile Size"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:159
+msgctxt "Property"
+msgid "Border"
+msgstr ""
+
+#: Editor/Brush/Designer/Tileset/TilesetInfoTab.cs:160
+msgctxt "Property"
+msgid "Delta"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:115
+msgid "Error: No tileset associated with brush."
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:145
+msgctxt "Property"
+msgid "Tile Index"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:166
+msgid "Non-procedural mesh has been generated."
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:169
+msgid "Non-procedural mesh asset is missing."
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetBrushDesigner.cs:170
+#: Editor/TileSystemInspector.cs:395 Editor/Utility/TileSystemCommands.cs:151
+msgctxt "Action"
+msgid "Repair"
+msgstr ""
+
+#. 0: quantity of brushes
+#: Editor/Brush/Designer/TilesetDesigner.cs:125
+#, csharp-format
+msgid "Contains 1 brush"
+msgid_plural "Contains {0} brushes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:133
+msgid "Tileset Menu"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:178
+msgctxt "Property"
+msgid "Tileset"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:227
+#: Editor/Window/BrushList/BrushListControl.cs:1026
+msgctxt "Action"
+msgid "Reveal Material"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:234
+#: Editor/Window/BrushList/BrushListControl.cs:1036
+msgctxt "Action"
+msgid "Reveal Texture"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:247
+msgctxt "Action"
+msgid "Cleanup Meshes"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:255
+#: Editor/Window/BrushList/BrushListControl.cs:1048
+#: Editor/Window/DeleteTilesetWindow.cs:17
+#: Editor/Window/DeleteTilesetWindow.cs:117
+msgctxt "Action"
+msgid "Delete Tileset"
+msgstr ""
+
+#: Editor/Brush/Designer/TilesetDesigner.cs:331
+msgctxt "Error"
+msgid " Was unable to rename tileset"
+msgstr ""
+
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:329
+msgctxt "Error"
+msgid "Tile width and height must both be divisible by 2."
+msgstr ""
+
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:441
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:462
+msgctxt "Action"
+msgid "Generate Autotile Atlas"
+msgstr ""
+
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:442
+msgid "Preparing atlas texture..."
+msgstr ""
+
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:463
+msgid "Processing atlas texture..."
+msgstr ""
+
+#. 0: name of the unsupported autotile format
+#: Editor/Brush/Tileset/AutotileExpanderUtility.cs:533
+#, csharp-format
+msgctxt "Error"
+msgid "Unsupported autotile format '{0}'."
+msgstr ""
+
+#: Editor/Brush/Tileset/TilesetPreviewUtility.cs:111
+msgid "Not all tile previews have been displayed to avoid poor performance."
+msgstr ""
+
+#: Editor/Brush/TilesetEditor.cs:85
+msgid "Please use designer to edit tileset."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:148
+msgctxt "Action"
+msgid "Save Built Scene"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:160 Editor/Builder/BuildUtility.cs:179
+#: Editor/Builder/BuildUtility.cs:242
+#: Editor/Window/CreateTileSystemWindow.cs:364
+#: Editor/Window/CreateTileSystemWindow.cs:409
+msgid "Error"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:161
+msgctxt "Error"
+msgid "Cannot overwrite current scene with built scene."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:162
+msgctxt "Action"
+msgid "Choose Other"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:180
+msgctxt "Error"
+msgid ""
+"Was unable to save built scene.\n"
+"\n"
+"Would you like to specify an alternative filename?"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:202
+#: Editor/Generated/UnityIntegration.cs.template:65
+msgctxt "Action"
+msgid "Build Scene"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:203
+msgid ""
+"Scene must be saved before tile systems can be built.\n"
+"\n"
+"Would you like to save the scene now?"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:204
+msgctxt "Action"
+msgid "Save and Proceed"
+msgstr ""
+
+#. 0: path of scene
+#: Editor/Builder/BuildUtility.cs:222
+#, csharp-format
+msgid "Building Scene '{0}'"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:225
+msgid ""
+"Open scene was saved successfully.\n"
+"\n"
+"Proceed to save built variation of scene."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:226
+msgctxt "Action"
+msgid "Proceed"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:229
+msgid "Building of tile systems was cancelled."
+msgstr ""
+
+#. 0: path to output asset
+#. 0: scene file path
+#: Editor/Builder/BuildUtility.cs:245 Editor/Builder/BuildUtility.cs:327
+#, csharp-format
+msgctxt "Error"
+msgid "Was unable to save output scene '{0}'"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Builder/BuildUtility.cs:279
+#, csharp-format
+msgid "Skipping non-editable tile system '{0}'."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:305
+msgid "Building tile systems"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:306
+msgid "Cleaning up..."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:342
+msgid "Warning"
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:343
+msgid ""
+"Errors were encountered whilst building scene. Please check console for any "
+"additional information."
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Builder/BuildUtility.cs:395 Editor/Builder/TileSystemBuilder.cs:202
+#, csharp-format
+msgid "Building tile system '{0}'..."
+msgstr ""
+
+#: Editor/Builder/BuildUtility.cs:398
+msgid "Saving prefab and data asset..."
+msgstr ""
+
+#: Editor/Builder/TileSystemBuilder.cs:219
+msgid "Optimizing tile colliders..."
+msgstr ""
+
+#. Prepare mesh data from tile meshes
+#: Editor/Builder/TileSystemBuilder.cs:225
+msgid "Preparing tile meshes..."
+msgstr ""
+
+#. Perform vertex snapping and smoothing
+#: Editor/Builder/TileSystemBuilder.cs:229
+msgid "Snapping vertices..."
+msgstr ""
+
+#. Merge meshes into chunks
+#: Editor/Builder/TileSystemBuilder.cs:233
+msgid "Finalizing chunks..."
+msgstr ""
+
+#. Apply stripping to tile system!
+#: Editor/Builder/TileSystemBuilder.cs:240
+msgid "Applying stripping rules..."
+msgstr ""
+
+#: Editor/Builder/TileSystemBuilder.cs:259
+msgid "Generating procedural tiles..."
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Builder/TileSystemBuilder.cs:358
+#, csharp-format
+msgid ""
+"Stripping options were reduced for '{0}' so that procedural tiles can be "
+"generated at runtime. See documentation for 'Pre-generate Procedural'."
+msgstr ""
+
+#. 0: name of product
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:43
+#, csharp-format
+msgid "Preferences - {0}"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:52
+msgctxt "Preferences|TabLabel"
+msgid "Tools"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:53
+msgctxt "Preferences|TabLabel"
+msgid "Painting"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:54
+msgctxt "Preferences|TabLabel"
+msgid "Grid"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:55
+msgctxt "Preferences|TabLabel"
+msgid "Misc"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:131
+msgctxt "Action"
+msgid "Use Defaults"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:150
+msgid "Tool Palette:"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:157
+msgid "Specify which tools appear in the tools palette."
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:160
+msgid "Automatically show tool palette upon activating tool"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:174
+msgctxt "Action"
+msgid "Click to hide tool"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:175
+msgctxt "Action"
+msgid "Click to show tool"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:223
+msgid "Erase empty chunks"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:227
+msgid "Preferred nozzle indicator"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:230
+msgctxt "RenderMode"
+msgid "Wireframe"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:231
+msgctxt "RenderMode"
+msgid "Shaded"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:237
+msgid "Display immediate previews"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:241
+msgid "Preview Tint"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:243
+msgid "See-through previews"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:244
+msgid "Hold control when painting to temporarily see-through."
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:252
+msgctxt "Grid"
+msgid "Background"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:253
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:254
+msgctxt "Grid"
+msgid "Minor Grid"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:255
+msgctxt "Grid"
+msgid "Chunk Boundary"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:259
+msgid "Highlight active tile system"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:260
+msgid "Display grid lines"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:261
+msgid "Display chunk boundaries"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:266
+msgid "Hide scene view grid upon activating tool"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:276
+msgid "Show detailed tips when available."
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:277
+msgid "Disable custom cursors."
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:278
+msgid "Always center utility windows."
+msgstr ""
+
+#. "Preferred Language (BETA)"
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:286
+msgid "Preferred Language (BETA)"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:299
+#: Editor/TileSystemInspector.cs:383 Editor/Window/RefreshTilesWindow.cs:97
+msgctxt "Action"
+msgid "Refresh"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:313
+msgid "__Translators__"
+msgstr ""
+
+#. list of special people names
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:317
+#, csharp-format
+msgid "Special Thanks: {0}"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:327
+msgctxt "Action"
+msgid "Use Default Preferences"
+msgstr ""
+
+#: Editor/EditorPreferences/EditorPreferencesWindow.cs:328
+msgid "Would you like to use the default preferences?"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:28
+#: Editor/Utility/UnityIntegrationUtility.cs:128
+msgid "__LanguageVer__"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:33
+#: Editor/Generated/UnityIntegration.cs.template:34
+#: Editor/UserData/TileSystemPresetInspector.cs:208
+#: Editor/Window/CreateTileSystemWindow.cs:79
+#: Editor/Window/CreateTileSystemWindow.cs:423
+#: Editor/Window/Palettes/ScenePaletteWindow.cs:167
+msgctxt "Action"
+msgid "Create Tile System"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:40
+#: Editor/Generated/UnityIntegration.cs.template:41
+msgctxt "Action"
+msgid "Create Brush or Tileset"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:47
+#: Editor/Generated/UnityIntegration.cs.template:53
+#: Editor/Generated/UnityIntegration.cs.template:165
+#: Editor/Generated/UnityIntegration.cs.template:171
+#: Editor/Utility/TransformUtility.cs:79
+msgctxt "Action"
+msgid "Use as Prefab Offset"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:59
+#: Editor/Utility/TileSystemCommands.cs:47
+msgctxt "Action"
+msgid "Replace by Brush"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:71
+msgctxt "Action"
+msgid "Rescan Brushes"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:77
+msgctxt "Action"
+msgid "Clear Preview Cache"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:83
+#: Editor/Generated/UnityIntegration.cs.template:89
+#: Editor/Generated/UnityIntegration.cs.template:95
+msgid "Editor Windows"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:83
+#: Editor/Window/Designer/DesignerWindow.cs:300
+msgid "Designer"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:89
+#: Editor/Window/Palettes/ScenePaletteWindow.cs:37
+msgid "Scene"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:95
+#: Editor/UserData/ProjectSettingsInspector.cs:114
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:26
+msgid "Brushes"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:101
+#: Editor/Generated/UnityIntegration.cs.template:107
+#: Editor/Generated/UnityIntegration.cs.template:113
+#: Editor/Generated/UnityIntegration.cs.template:119
+msgid "Online Resources"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:101
+#: Editor/Window/AboutWindow.cs:119
+msgctxt "Online"
+msgid "Repository"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:107
+msgctxt "Online"
+msgid "User Guide"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:113
+msgctxt "Online"
+msgid "API Reference"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:119
+msgctxt "Online"
+msgid "Releases"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:125
+msgctxt "Action"
+msgid "Preferences"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:131
+msgctxt "Action"
+msgid "About"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:142
+msgctxt "Action"
+msgid "Toggle Lock"
+msgstr ""
+
+#: Editor/Generated/UnityIntegration.cs.template:153
+#: Editor/Generated/UnityIntegration.cs.template:159
+msgctxt "Action"
+msgid "Select Tile System"
+msgstr ""
+
+#: Editor/ReduceColliderOptionsPropertyDrawer.cs:29
+msgctxt "Property"
+msgid "Snap Threshold"
+msgstr ""
+
+#: Editor/ReduceColliderOptionsPropertyDrawer.cs:37
+msgctxt "Property"
+msgid "Keep Separate"
+msgstr ""
+
+#: Editor/ReduceColliderOptionsPropertyDrawer.cs:45
+msgctxt "Property"
+msgid "Include tiles flagged as solid"
+msgstr ""
+
+#: Editor/ReduceColliderOptionsPropertyDrawer.cs:55
+msgctxt "Property"
+msgid "Collider Type"
+msgstr ""
+
+#. Format string to annotate action name with shortcut keys.
+#. i.e. 'Goto Target Brush (F3)'
+#. 0: action text
+#. 1: shortcut keys; for instance, "B"
+#: Editor/TileLang.cs:40
+#, csharp-format
+msgctxt "Format|ActionWithShortcut"
+msgid "{0} ({1})"
+msgstr ""
+
+#. Format quantity of pixels.
+#. i.e. '42 pixels'
+#. 0: quantity of pixels
+#: Editor/TileLang.cs:51
+#, csharp-format
+msgctxt "Format|PixelMetric"
+msgid "{0} pixels"
+msgstr ""
+
+#. Format fraction of a pixel.
+#. i.e. '25% of 1 pixel'
+#. 0: number typically between 0 and 100
+#: Editor/TileLang.cs:62
+#, csharp-format
+msgctxt "Format|PixelFractionMetric"
+msgid "{0}% of 1 pixel"
+msgstr ""
+
+#: Editor/TileLang.cs:70
+msgctxt "Status"
+msgid "Yes"
+msgstr ""
+
+#: Editor/TileLang.cs:71
+msgctxt "Status"
+msgid "No"
+msgstr ""
+
+#. Format title string of object that is being dragged.
+#. i.e. 'Grass Brush (OrientedBrush)'
+#. 0: name of the object
+#. 1: type of the object
+#: Editor/TileLang.cs:81
+#, csharp-format
+msgctxt "Format|DragObjectTitle"
+msgid "{0} ({1})"
+msgstr ""
+
+#: Editor/TileSystemEditor.cs:472
+msgctxt "Status"
+msgid "Locked"
+msgstr ""
+
+#: Editor/TileSystemEditor.cs:481 Editor/TileSystemInspector.cs:105
+msgid "Tile system has been built and can no longer be edited."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:113
+msgid ""
+"Tile system is locked. Select 'Toggle Lock' from context menu to unlock "
+"inspector."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:114
+msgid ""
+"One or more selected tile systems are locked. Unlock tile systems to unlock "
+"inspector."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:121
+msgctxt "Section"
+msgid "Modify Grid"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:127
+#: Editor/UserData/TileSystemPresetInspector.cs:270
+msgctxt "Section"
+msgid "Stripping"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:133
+#: Editor/UserData/TileSystemPresetInspector.cs:275
+msgctxt "Section"
+msgid "Build Options"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:139
+#: Editor/UserData/TileSystemPresetInspector.cs:280
+msgctxt "Section"
+msgid "Runtime Options"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:187
+msgid "Cannot modify structure of multiple tile systems at the same time."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:193
+msgid "Prefab must be instantiated in order to modify tile system structure."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:209
+#: Editor/UserData/TileSystemPresetInspector.cs:309
+msgctxt "Property"
+msgid "Grid Size (in tiles)"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:224
+msgctxt "Property"
+msgid "Offset Amount (in tiles)"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:251
+#: Editor/UserData/TileSystemPresetInspector.cs:331
+msgctxt "Property"
+msgid "Chunk Size (in tiles)"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:273
+msgctxt "Action"
+msgid "Trim"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:287
+msgctxt "Action"
+msgid "Centralize Tile Bounds"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:299
+msgctxt "Action"
+msgid "Centralize"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:317
+msgid "Tile system must be reconstructed, some tiles may be force refreshed."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:319
+msgctxt "Action"
+msgid "Rebuild"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:337
+#: Editor/UserData/TileSystemPresetInspector.cs:365
+msgctxt "Property"
+msgid "Cell Size"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:338
+#: Editor/UserData/TileSystemPresetInspector.cs:382
+msgid "Span of an individual tile."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:350
+#: Editor/UserData/TileSystemPresetInspector.cs:388
+msgctxt "Property"
+msgid "Tiles Facing"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:351
+#: Editor/UserData/TileSystemPresetInspector.cs:389
+msgid ""
+"Direction that tiles will face when painted. 'Sideways' is good for platform "
+"and 2D games. 'Upwards' is good for top-down."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:364
+msgid ""
+"Changes may not take effect until tile system is force refreshed without "
+"preserving manual offsets, or cleared."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:388 Editor/Utility/TileSystemCommands.cs:213
+msgctxt "Action"
+msgid "Refresh Plops"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:400 Editor/Utility/TileSystemCommands.cs:247
+msgctxt "Action"
+msgid "Clear Plops"
+msgstr ""
+
+#. "Maintain tile positions in world space"
+#: Editor/TileSystemInspector.cs:423
+msgctxt "Property"
+msgid "Maintain tile positions in world space"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:453 Editor/TileSystemInspector.cs:464
+msgctxt "Action"
+msgid "Rebuild Tile System"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:454
+msgid ""
+"Upon modifying tile system some tiles will become out-of-bounds and will be "
+"erased.\n"
+"\n"
+"Would you like to proceed?"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:559
+#: Editor/UserData/TileSystemPresetInspector.cs:429
+#: Editor/Utility/RotorzEditorGUI.cs:1711
+msgctxt "Property"
+msgid "Stripping Preset"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:560
+#: Editor/UserData/TileSystemPresetInspector.cs:430
+#: Editor/Utility/RotorzEditorGUI.cs:1712
+msgid "Custom level of stripping can be applied to tile system upon build."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:579
+#: Editor/UserData/TileSystemPresetInspector.cs:449
+msgctxt "Action"
+msgid "Modify Stripping Options"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:640
+#: Editor/UserData/TileSystemPresetInspector.cs:468
+msgctxt "Property"
+msgid "Combine Method"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:673
+#: Editor/UserData/TileSystemPresetInspector.cs:503
+msgctxt "Property"
+msgid "Combine into submeshes"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:674
+#: Editor/UserData/TileSystemPresetInspector.cs:505
+msgid ""
+"Determines whether to use submeshes, or an individual mesh for each material."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:682
+#: Editor/UserData/TileSystemPresetInspector.cs:510
+msgid "Avoid generation of meshes with vertices in excess of 64k."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:690
+#: Editor/UserData/TileSystemPresetInspector.cs:517
+msgctxt "Property"
+msgid "Vertex Snap Threshold"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:691
+#: Editor/UserData/TileSystemPresetInspector.cs:518
+msgid "Increase threshold to snap vertices that are more widely spread."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:696
+#: Editor/UserData/TileSystemPresetInspector.cs:523
+msgid "No snapping occurs when threshold is 0."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:703
+#: Editor/UserData/TileSystemPresetInspector.cs:530
+msgctxt "Property"
+msgid "Static Snapping"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:704
+#: Editor/UserData/TileSystemPresetInspector.cs:531
+msgid ""
+"Applies vertex snapping to static tiles to avoid tiny gaps due to numerical "
+"inaccuracies. Vertex snapping is always applied to 'smooth' tiles."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:711
+#: Editor/UserData/TileSystemPresetInspector.cs:538
+msgctxt "Property"
+msgid "Generate Lightmap UVs"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:717
+#: Editor/UserData/TileSystemPresetInspector.cs:544
+#: Editor/Window/Palettes/ToolPaletteWindow.cs:219
+msgctxt "Section"
+msgid "Advanced"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:725
+#: Editor/UserData/TileSystemPresetInspector.cs:552
+msgctxt "Property"
+msgid "Hard Angle"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:726
+#: Editor/UserData/TileSystemPresetInspector.cs:553
+msgid "Angle between neighbor triangles that will generate seam."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:738
+#: Editor/UserData/TileSystemPresetInspector.cs:565
+msgctxt "Property"
+msgid "Pack Margin"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:739
+#: Editor/UserData/TileSystemPresetInspector.cs:566
+msgid ""
+"Measured in pixels, assuming mesh will cover an entire 1024x1024 lightmap."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:751
+#: Editor/UserData/TileSystemPresetInspector.cs:578
+msgctxt "Property"
+msgid "Angle Error"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:752
+#: Editor/UserData/TileSystemPresetInspector.cs:579
+msgid ""
+"Measured in percents. Angle error measures deviation of UV angles from "
+"geometry angles. Area error measure deviation of UV triangles area from "
+"geometry triangles if they were uniformly scaled."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:764
+#: Editor/UserData/TileSystemPresetInspector.cs:591
+msgctxt "Property"
+msgid "Area Error"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:782
+#: Editor/UserData/TileSystemPresetInspector.cs:609
+msgctxt "Property"
+msgid "Pre-generate Procedural"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:783
+#: Editor/UserData/TileSystemPresetInspector.cs:610
+msgid "Increases size of scene but allows brushes to be stripped from builds."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:789
+#: Editor/UserData/TileSystemPresetInspector.cs:616
+msgid ""
+"Stripping capabilities are reduced when procedural tiles are present but are "
+"not pre-generated since they are otherwise generated at runtime."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:793
+#: Editor/UserData/TileSystemPresetInspector.cs:620
+msgctxt "Property"
+msgid "Reduce Box Colliders"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:794
+#: Editor/UserData/TileSystemPresetInspector.cs:621
+msgid "Reduces count of box colliders by coalescing adjacent colliders."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:833
+#: Editor/UserData/TileSystemPresetInspector.cs:632
+msgctxt "Property"
+msgid "Erase Empty Chunks"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:834
+#: Editor/UserData/TileSystemPresetInspector.cs:633
+msgid ""
+"Hints that empty chunks should be erased when they become empty at runtime."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:841
+#: Editor/UserData/TileSystemPresetInspector.cs:640
+msgctxt "Property"
+msgid "Apply Basic Stripping"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:842
+#: Editor/UserData/TileSystemPresetInspector.cs:641
+msgid "Applies a basic degree of stripping at runtime upon awakening."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:851
+#: Editor/UserData/TileSystemPresetInspector.cs:650
+msgctxt "Property"
+msgid "Update Procedural at Start"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:852
+#: Editor/UserData/TileSystemPresetInspector.cs:651
+msgid "Automatically updates procedural meshes at runtime upon awakening."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:859
+#: Editor/UserData/TileSystemPresetInspector.cs:658
+msgctxt "Property"
+msgid "Mark Procedural Dynamic"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:860
+#: Editor/UserData/TileSystemPresetInspector.cs:659
+msgid ""
+"Helps to improve performance when procedural tiles are updated frequently at "
+"runtime. Unset if only updated at start of level."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:867
+#: Editor/UserData/TileSystemPresetInspector.cs:666
+msgctxt "Property"
+msgid "Add Procedural Normals"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:868
+#: Editor/UserData/TileSystemPresetInspector.cs:667
+msgid "Adds normals to procedural meshes."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:879
+#: Editor/UserData/TileSystemPresetInspector.cs:676
+msgctxt "Property"
+msgid "Procedural Sorting Layer"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:880
+#: Editor/UserData/TileSystemPresetInspector.cs:677
+msgid "Sorting layer for procedural tileset meshes."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:887
+#: Editor/UserData/TileSystemPresetInspector.cs:684
+msgctxt "Property"
+msgid "Procedural Order in Layer"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:888
+#: Editor/UserData/TileSystemPresetInspector.cs:685
+msgid "Order in sorting layer."
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:913
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:462
+msgctxt "Action"
+msgid "Build Prefab"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:923
+msgctxt "Action"
+msgid "Toggle Grid Display"
+msgstr ""
+
+#: Editor/TileSystemInspector.cs:930
+msgctxt "Action"
+msgid "Toggle Chunk Display"
+msgstr ""
+
+#: Editor/Tool/CycleTool.cs:20
+msgctxt "Tool Name"
+msgid "Cycle"
+msgstr ""
+
+#: Editor/Tool/CycleTool.cs:157
+msgctxt "Property"
+msgid "Can cycle plops"
+msgstr ""
+
+#: Editor/Tool/CycleTool.cs:160 Editor/Tool/PickerTool.cs:185
+#: Editor/Tool/PlopTool.cs:349
+msgctxt "Property"
+msgid "Interact with active system only"
+msgstr ""
+
+#: Editor/Tool/FillTool.cs:27
+msgctxt "Tool Name"
+msgid "Fill"
+msgstr ""
+
+#: Editor/Tool/FillTool.cs:126
+msgctxt "Property"
+msgid "Fill Limit"
+msgstr ""
+
+#: Editor/Tool/FillTool.cs:127
+msgid ""
+"Filling too many tiles may cause Unity to crash. Avoid setting this "
+"preference too high."
+msgstr ""
+
+#: Editor/Tool/LineTool.cs:17
+msgctxt "Tool Name"
+msgid "Line"
+msgstr ""
+
+#: Editor/Tool/PaintTool.cs:20
+msgctxt "Tool Name"
+msgid "Paint"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:262
+msgid "Round Nozzle"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:272
+msgid "Square Nozzle"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:302
+msgctxt "Property"
+msgid "Nozzle Radius"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:305
+msgctxt "Property"
+msgid "Nozzle Size"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:326
+msgctxt "Property"
+msgid "Paint Around Existing Tiles"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:360
+msgctxt "Property"
+msgid "Randomize Variations"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:382
+msgctxt "Action"
+msgid "Shift to Next Variation"
+msgstr ""
+
+#: Editor/Tool/PaintToolBase.cs:386
+msgctxt "Action"
+msgid "Shift to Previous Variation"
+msgstr ""
+
+#: Editor/Tool/PickerTool.cs:20
+msgctxt "Tool Name"
+msgid "Picker"
+msgstr ""
+
+#: Editor/Tool/PickerTool.cs:182
+msgctxt "Property"
+msgid "Can pick plops"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:23
+msgctxt "Tool Name"
+msgid "Plop"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:334
+msgctxt "Property"
+msgid "Location"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:338
+msgctxt "Property"
+msgid "Group Name"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:348
+msgctxt "Property"
+msgid "Disable cycle function"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:350
+msgctxt "Property"
+msgid "Hide wireframe outline"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:584 Editor/Tool/PlopTool.cs:611
+msgctxt "SnapAlignment"
+msgid "Points"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:589 Editor/Tool/PlopTool.cs:615
+msgctxt "SnapAlignment"
+msgid "Cells"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:594 Editor/Tool/PlopTool.cs:607
+msgctxt "SnapAlignment"
+msgid "Free"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:633
+msgid "Fraction of Cell Size"
+msgstr ""
+
+#: Editor/Tool/PlopTool.cs:637
+msgid "Custom Size"
+msgstr ""
+
+#: Editor/Tool/RectangleTool.cs:20
+msgctxt "Tool Name"
+msgid "Rectangle"
+msgstr ""
+
+#: Editor/Tool/RectangleTool.cs:136
+msgctxt "Property"
+msgid "Fill Center"
+msgstr ""
+
+#: Editor/Tool/RectangleTool.cs:146
+msgctxt "Property"
+msgid "Draw Outline"
+msgstr ""
+
+#: Editor/Tool/SprayTool.cs:16
+msgctxt "Tool Name"
+msgid "Spray"
+msgstr ""
+
+#: Editor/Tool/SprayTool.cs:98
+msgctxt "Property"
+msgid "Fill Rate (%)"
+msgstr ""
+
+#: Editor/Tool/SprayTool.cs:101
+msgctxt "Property"
+msgid "Randomize Rotation"
+msgstr ""
+
+#: Editor/Tool/ToolBase.cs:683
+msgid "Tool has no parameters"
+msgstr ""
+
+#. 0: zero-based index of row
+#. 1: zero-based index of column
+#: Editor/Tool/ToolBase.cs:757
+#, csharp-format
+msgid "Row: {0,5}    Column: {1,5}"
+msgstr ""
+
+#. 0: name of brush
+#. 1: zero-based index of associated tile in tileset
+#: Editor/Tool/ToolBase.cs:774
+#, csharp-format
+msgid "{0} : {1}"
+msgstr ""
+
+#. 0: name of tileset
+#. 1: zero-based index of tile in tileset
+#: Editor/Tool/ToolBase.cs:786
+#, csharp-format
+msgid "{1} from {0}"
+msgstr ""
+
+#. 0: category id
+#: Editor/UserData/BrushCategoryInfoPropertyDrawer.cs:28
+#, csharp-format
+msgid "Id: {0}"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:347
+msgctxt "Action"
+msgid "Add Category"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:387
+msgctxt "Action"
+msgid "Set Category Label"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:417
+msgctxt "Action"
+msgid "Delete Category"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:436
+msgctxt "Status"
+msgid "Uncategorized"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:444
+msgctxt "Status"
+msgid "(Unknown Category)"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:456
+msgctxt "Action"
+msgid "Sort Categories"
+msgstr ""
+
+#: Editor/UserData/ProjectSettings.cs:507
+msgctxt "Action"
+msgid "Update Flag Labels"
+msgstr ""
+
+#. 0: name of product
+#: Editor/UserData/ProjectSettingsInspector.cs:65
+#, csharp-format
+msgid "Project Settings - {0}"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:91
+msgid "Brush and Tileset Creator"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:98
+msgid "Brush Categories"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:117
+msgctxt "Property"
+msgid "Brushes Folder"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:129
+msgctxt "Action"
+msgid "Browse"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:134
+#: Editor/Window/CreateTileSystemWindow.cs:307
+msgctxt "Action"
+msgid "Reset"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:139
+msgid "Tilesets"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:142
+msgctxt "Property"
+msgid "Opaque Material Template"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:148
+msgctxt "Property"
+msgid "Transparent Material Template"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:153
+msgid "Default materials are created when no material templates are specified."
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:170
+msgid "Select folder where new brushes and tilesets should be created:"
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:182
+msgid "Brushes folder must be a sub-folder somewhere inside 'Assets'."
+msgstr ""
+
+#: Editor/UserData/ProjectSettingsInspector.cs:216
+msgctxt "Action"
+msgid "Show Id"
+msgstr ""
+
+#. 0: name of tile system preset
+#: Editor/UserData/TileSystemPresetInspector.cs:187
+#, csharp-format
+msgid "{0} (Tile System Preset)"
+msgstr ""
+
+#. 0: quantity of selected tile system presets
+#: Editor/UserData/TileSystemPresetInspector.cs:192
+#, csharp-format
+msgid "{0} Tile System Presets"
+msgstr ""
+
+#. 0: name of previous state
+#: Editor/UserData/TileSystemPresetInspector.cs:230
+#: Editor/UserData/TileSystemPresetInspector.cs:243
+#, csharp-format
+msgctxt "Action"
+msgid "Reset to '{0}'"
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:231
+#: Editor/Window/CreateTileSystemWindow.cs:212
+#: Editor/Window/CreateTileSystemWindow.cs:279
+msgctxt "Preset Name"
+msgid "Default: 3D"
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:244
+#: Editor/Window/CreateTileSystemWindow.cs:217
+#: Editor/Window/CreateTileSystemWindow.cs:280
+msgctxt "Preset Name"
+msgid "Default: 2D"
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:296
+msgctxt "Property"
+msgid "Tile System Name"
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:355
+msgid ""
+"Do not exceed an area of 100x100 tiles per chunk when using procedural "
+"tilesets."
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:360
+msgid "Number of tiles that contribute to a chunk."
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:411
+msgctxt "Property"
+msgid "Initial Direction"
+msgstr ""
+
+#: Editor/UserData/TileSystemPresetInspector.cs:412
+msgid ""
+"Initial direction of tile system upon creation. If in doubt assume default "
+"and rotate afterwards."
+msgstr ""
+
+#. Adjust scene order of tile systems.
+#: Editor/Utility/EditorTileSystemUtility.cs:137
+#: Editor/Utility/EditorTileSystemUtility.cs:144
+#: Editor/Utility/EditorTileSystemUtility.cs:162
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:279
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:288
+msgctxt "Action"
+msgid "Reorder Tile Systems"
+msgstr ""
+
+#. We can have undo/redo for plops!
+#: Editor/Utility/PlopUtility.cs:86
+msgctxt "Action"
+msgid "Plop Tile"
+msgstr ""
+
+#: Editor/Utility/PlopUtility.cs:129
+msgctxt "Action"
+msgid "Cycle Plop"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:982
+#: Editor/Window/BrushList/BrushListControl.cs:1004
+#: Editor/Window/BrushPickerWindow.cs:95
+msgid "(None)"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1383
+msgctxt "Action"
+msgid "Manage Categories"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1578
+msgctxt "Property"
+msgid "Strip tile system component"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1581
+msgctxt "Property"
+msgid "Strip chunk map"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1592
+msgctxt "Property"
+msgid "Strip tile data"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1605
+msgctxt "Property"
+msgid "Strip brush references"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1623
+msgctxt "Property"
+msgid "Strip empty objects"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1626
+msgctxt "Property"
+msgid "Strip empty objects after combine"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1639
+msgctxt "Property"
+msgid "Strip chunks and reparent tiles"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1642
+msgctxt "Property"
+msgid "Strip empty chunks"
+msgstr ""
+
+#: Editor/Utility/RotorzEditorGUI.cs:1655
+msgctxt "Property"
+msgid "Strip plop instance / group components"
+msgstr ""
+
+#. 0: name of brush
+#: Editor/Utility/TileSystemCommands.cs:27
+#, csharp-format
+msgid ""
+"Deleting a brush that has been previously used in a tile system may cause "
+"damage to that tile system.\n"
+"\n"
+"'{0}'\n"
+"\n"
+"Do you really want to delete this brush?"
+msgstr ""
+
+#. 0: quantity of tiles replaced
+#: Editor/Utility/TileSystemCommands.cs:88
+#, csharp-format
+msgid "Replace by Brush :: Matched and replaced {0} tile(s)."
+msgstr ""
+
+#: Editor/Utility/TileSystemCommands.cs:130
+#: Editor/Utility/TileSystemCommands.cs:142
+#: Editor/Utility/TileSystemCommands.cs:157
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:426
+msgctxt "Action"
+msgid "Repair Tiles"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Utility/TileSystemCommands.cs:133
+#, csharp-format
+msgid "No broken tiles were detected in '{0}'."
+msgstr ""
+
+#. 0: name of tile system
+#. 1: quantity of broken tiles
+#: Editor/Utility/TileSystemCommands.cs:146
+#, csharp-format
+msgid ""
+"Detected {1} broken tiles where associated game object is missing.\n"
+"\n"
+"This usually occurs when tiles are deleted manually. Use erase tool (or "
+"erase functionality of paint tool) instead of deleting tile objects "
+"manually.\n"
+"\n"
+"Broken tiles can often be repaired by force refreshing them, or "
+"alternatively erased."
+msgstr ""
+
+#: Editor/Utility/TileSystemCommands.cs:149
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:273
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:285
+msgctxt "Action"
+msgid "Erase"
+msgstr ""
+
+#. Register undo event.
+#: Editor/Utility/TileSystemCommands.cs:181
+#: Editor/Utility/TileSystemCommands.cs:194
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:432
+msgctxt "Action"
+msgid "Clear Tiles"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Utility/TileSystemCommands.cs:184
+#, csharp-format
+msgid "Do you really want to clear all tiles from '{0}'?"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Utility/TileSystemCommands.cs:216
+#, csharp-format
+msgid "Do you want to force refresh all plops associated with '{0}'?"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Utility/TileSystemCommands.cs:250
+#, csharp-format
+msgid "Do you want to clear all plops associated with '{0}'?"
+msgstr ""
+
+#: Editor/Utility/TransformUtility.cs:89
+msgctxt "Action"
+msgid "Apply Prefab Transform"
+msgstr ""
+
+#. 0: name of brush
+#: Editor/Utility/TransformUtility.cs:92
+#, csharp-format
+msgid ""
+"Prefab offset will have no effect unless 'Apply Prefab Transform' is enabled "
+"for brush.\n"
+"\n"
+"Would you like to enable this for '{0}'?"
+msgstr ""
+
+#. 0: name of product
+#: Editor/Window/AboutWindow.cs:37
+#, csharp-format
+msgid "About {0}"
+msgstr ""
+
+#. 0: main version string; for instance, "1.2.3"
+#. 1: special version name; for instance, "ALPHA 1"
+#. 2: hash of the commit; for instance, "7435f844caee0ec925d4497d81c36265a6615e91"
+#: Editor/Window/AboutWindow.cs:47
+#, csharp-format
+msgid ""
+"Version {0} {1}\n"
+"\n"
+"Commit {2}"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:83
+msgctxt "Zoom Mode"
+msgid "Automatic"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:84
+msgctxt "Zoom Mode"
+msgid "Best Fit"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:85
+msgctxt "Zoom Mode"
+msgid "Custom"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:289
+#: Editor/Window/BrushList/BrushListControl.cs:607
+#: Editor/Window/BrushList/BrushListControl.cs:619
+#: Editor/Window/BrushList/BrushListControl.cs:1069
+msgctxt "BrushList|View"
+msgid "Brushes"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:293
+msgctxt "BrushList|View"
+msgid "Tileset"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:297
+#: Editor/Window/BrushList/BrushListControl.cs:610
+#: Editor/Window/BrushList/BrushListControl.cs:1077
+msgctxt "BrushList|View"
+msgid "Master"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:450
+#: Editor/Window/BrushList/BrushListControl.cs:1204
+#: Editor/Window/EditFlagLabelsWindow.cs:84
+msgid "Brush"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:643
+msgid "Tileset Context Menu"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:797
+msgctxt "Action"
+msgid "Hide Tileset Brushes"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:804
+msgctxt "Action"
+msgid "Always Show Favorite"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:814
+msgctxt "Action"
+msgid "Show Hidden"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:823
+msgctxt "Action"
+msgid "Filter Favorite"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:837
+msgctxt "Action"
+msgid "All Categories"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:854
+msgctxt "Action"
+msgid "Uncategorized"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:862
+msgctxt "Action"
+msgid "Custom"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:874
+msgctxt "Action"
+msgid "Select Custom"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:881
+msgid "(No Categories)"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:919
+msgctxt "Action"
+msgid "Filter Category"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:975
+msgid "Tileset"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListControl.cs:1330
+#: Editor/Window/BrushList/BrushListControl.cs:1511
+msgid "Missing brush reference was encountered whilst drawing list."
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListModel.cs:786
+msgid "Multiple Categories"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListModel.cs:791
+msgid "Custom"
+msgstr ""
+
+#: Editor/Window/BrushList/BrushListModel.cs:796
+msgid "Favorite"
+msgstr ""
+
+#. 0: current filter description
+#: Editor/Window/BrushList/BrushListModel.cs:802
+#, csharp-format
+msgid "Filter: {0}"
+msgstr ""
+
+#: Editor/Window/BrushPickerWindow.cs:88
+msgctxt "Action"
+msgid "Select Brush"
+msgstr ""
+
+#. 0: name of tile system
+#: Editor/Window/BuildTileSystemWindow.cs:31
+#, csharp-format
+msgid "Build Optimized Prefab from '{0}'"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:117
+msgctxt "Property"
+msgid "Prefab Output Path:"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:124
+msgctxt "Action"
+msgid "Save Prefab Output"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:125
+msgid "Specify path for prefab output"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:134
+msgctxt "Property"
+msgid "Data Output Path:"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:141
+msgctxt "Action"
+msgid "Save Data Output"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:142
+msgid "Specify path for mesh output"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:165
+#: Editor/Window/Palettes/ScenePaletteWindow.cs:174
+msgctxt "Action"
+msgid "Build"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:227
+msgid "Warning, Output prefab or data asset already exists!"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:228
+msgid "Do you really want to overwrite?"
+msgstr ""
+
+#: Editor/Window/BuildTileSystemWindow.cs:259
+#: Editor/Window/BuildTileSystemWindow.cs:271
+#: Editor/Window/BuildTileSystemWindow.cs:283
+msgid "Input Error"
+msgstr ""
+
+#. 0: type of path
+#: Editor/Window/BuildTileSystemWindow.cs:262
+#, csharp-format
+msgctxt "Error"
+msgid "No filename was specified for {0}."
+msgstr ""
+
+#. 0: type of path
+#: Editor/Window/BuildTileSystemWindow.cs:274
+#, csharp-format
+msgctxt "Error"
+msgid "Relative path is not allowed for {0}."
+msgstr ""
+
+#. 0: type of path
+#: Editor/Window/BuildTileSystemWindow.cs:286
+#, csharp-format
+msgctxt "Error"
+msgid "Invalid characters were found in {0} path."
+msgstr ""
+
+#: Editor/Window/CleanupTilesetMeshesWindow.cs:17
+#: Editor/Window/CleanupTilesetMeshesWindow.cs:58
+msgctxt "Action"
+msgid "Cleanup Non-Procedural Meshes"
+msgstr ""
+
+#: Editor/Window/CleanupTilesetMeshesWindow.cs:62
+msgid ""
+"Mesh assets are generated for non-procedural tileset brushes and often not "
+"needed after brushes are deleted.\n"
+"\n"
+"Meshes not referenced by at least one tileset brush can be removed. Mesh "
+"will be missing for previously painted tiles."
+msgstr ""
+
+#: Editor/Window/CleanupTilesetMeshesWindow.cs:83
+msgctxt "Action"
+msgid "Cleanup"
+msgstr ""
+
+#: Editor/Window/CreateBrushWindow.cs:122
+msgctxt "Action"
+msgid "Create Brush / Tileset"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:241
+msgctxt "Property"
+msgid "Preset"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:252
+msgctxt "Property"
+msgid "Preset Name"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:255
+msgctxt "Action"
+msgid "Save Preset"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:262
+#: Editor/Window/CreateTileSystemWindow.cs:370
+msgctxt "Action"
+msgid "Delete Preset"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:344
+msgctxt "Error"
+msgid "Invalid name for the asset"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:345
+msgctxt "Error"
+msgid ""
+"Can only use alphanumeric characters (A-Z a-z 0-9), hyphens (-), underscores "
+"(_) and spaces.\n"
+"\n"
+"Name must begin with an alphanumeric character."
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:365
+msgctxt "Error"
+msgid "Cannot delete a default preset."
+msgstr ""
+
+#. 0: name of the preset
+#: Editor/Window/CreateTileSystemWindow.cs:373
+#, csharp-format
+msgctxt "Error"
+msgid "Do you want to delete the preset '{0}'?"
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:400
+msgid "Please specify name for tile system."
+msgstr ""
+
+#: Editor/Window/CreateTileSystemWindow.cs:410
+msgid "A tile system must contain at least 1 cell."
+msgstr ""
+
+#: Editor/Window/DefineOrientationWindow.cs:176
+#: Editor/Window/DefineOrientationWindow.cs:203
+msgctxt "Action"
+msgid "Select Orientation"
+msgstr ""
+
+#: Editor/Window/DefineOrientationWindow.cs:364
+msgctxt "Action"
+msgid "Toggle Rotational Symmetry"
+msgstr ""
+
+#: Editor/Window/DefineOrientationWindow.cs:372
+msgctxt "Action"
+msgid "Invert"
+msgstr ""
+
+#: Editor/Window/DeleteTilesetWindow.cs:82
+msgctxt "Property"
+msgid "Delete associated atlas texture"
+msgstr ""
+
+#: Editor/Window/DeleteTilesetWindow.cs:90
+msgctxt "Property"
+msgid "Delete associated material"
+msgstr ""
+
+#: Editor/Window/DeleteTilesetWindow.cs:98
+msgctxt "Property"
+msgid "Delete non-procedural mesh assets"
+msgstr ""
+
+#: Editor/Window/DeleteTilesetWindow.cs:121
+msgid ""
+"Caution, proceeding will delete tileset which will cause damage to any "
+"scenes or assets that require it.\n"
+"\n"
+"All contained brushes will also be deleted."
+msgstr ""
+
+#: Editor/Window/DeleteTilesetWindow.cs:136
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:454
+msgctxt "Action"
+msgid "Delete"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerView.cs:456
+msgctxt "Section"
+msgid "Extended Properties"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerWindow.cs:32
+msgctxt "Action"
+msgid "Back"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerWindow.cs:33
+msgctxt "Action"
+msgid "Forward"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerWindow.cs:34
+msgctxt "Action"
+msgid "Recent"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerWindow.cs:634
+msgctxt "Action"
+msgid "Clear Recent History"
+msgstr ""
+
+#: Editor/Window/Designer/DesignerWindow.cs:743
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:407
+msgctxt "Action"
+msgid "Lock"
+msgstr ""
+
+#. 0: name of brush
+#: Editor/Window/EditFlagLabelsWindow.cs:29
+#, csharp-format
+msgid "Flag Labels for '{0}'"
+msgstr ""
+
+#: Editor/Window/EditFlagLabelsWindow.cs:32
+msgid "Flag Labels"
+msgstr ""
+
+#: Editor/Window/EditFlagLabelsWindow.cs:86
+msgid ""
+"Flag labels can be customized on a per brush basis. Leave blank to assume "
+"label from project tab."
+msgstr ""
+
+#: Editor/Window/EditFlagLabelsWindow.cs:91
+msgid "Project"
+msgstr ""
+
+#: Editor/Window/EditFlagLabelsWindow.cs:93
+msgid "Flag labels are shared across entire project."
+msgstr ""
+
+#. 0: number of flag
+#: Editor/Window/EditFlagLabelsWindow.cs:144
+#, csharp-format
+msgid "Flag #{0}"
+msgstr ""
+
+#: Editor/Window/EditFlagLabelsWindow.cs:172
+msgctxt "Action"
+msgid "Save"
+msgstr ""
+
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:35
+msgctxt "Action"
+msgid "(Erase)"
+msgstr ""
+
+#: Editor/Window/Palettes/BrushPaletteWindow.cs:292
+msgctxt "Action"
+msgid "Switch primary and secondary brushes (X)"
+msgstr ""
+
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:176
+msgctxt "Action"
+msgid "Toggle Visibility"
+msgstr ""
+
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:395
+msgctxt "Action"
+msgid "Inspect"
+msgstr ""
+
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:411
+msgctxt "Action"
+msgid "Unlock Tile System"
+msgstr ""
+
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:412
+msgctxt "Action"
+msgid "Lock Tile System"
+msgstr ""
+
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:420
+#: Editor/Window/RefreshTilesWindow.cs:61
+#: Editor/Window/RefreshTilesWindow.cs:114
+msgctxt "Action"
+msgid "Refresh Tiles"
+msgstr ""
+
+#. 0: current name of the tile system
+#: Editor/Window/Palettes/ScenePaletteTileSystemsListAdaptor.cs:586
+#, csharp-format
+msgctxt "Action"
+msgid "Rename {0}"
+msgstr ""
+
+#: Editor/Window/Palettes/ToolPaletteWindow.cs:31
+msgid "Tools"
+msgstr ""
+
+#: Editor/Window/Palettes/ToolPaletteWindow.cs:163
+msgctxt "Action"
+msgid "Main Menu"
+msgstr ""
+
+#: Editor/Window/Palettes/ToolPaletteWindow.cs:229
+msgid "No tool selected"
+msgstr ""
+
+#: Editor/Window/Palettes/ToolPaletteWindow.cs:245
+msgctxt "Action"
+msgid "Reset Tool Options"
+msgstr ""
+
+#. 0: name of the tile system
+#: Editor/Window/RefreshTilesWindow.cs:19
+#, csharp-format
+msgctxt "Action"
+msgid "Refresh Tiles in '{0}'"
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:63
+msgid ""
+"Tiles are replaced if obvious changes are detected. You can force refresh "
+"all tiles if necessary."
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:68
+msgctxt "Property"
+msgid "Force refresh all tiles"
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:73
+#: Editor/Window/RefreshTilesWindow.cs:77
+msgctxt "Property"
+msgid "Update procedural tiles"
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:82
+msgctxt "Property"
+msgid "Preserve manual offsets"
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:84
+msgctxt "Property"
+msgid "Preserve painted user flags"
+msgstr ""
+
+#: Editor/Window/RefreshTilesWindow.cs:90
+msgid "Some manual changes may be lost when refreshing tiles."
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:91
+msgctxt "Action"
+msgid "Replace Tiles by Brush"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:147
+msgid "Apply To Tile System(s):"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:151
+msgctxt "Selection"
+msgid "Active"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:159
+msgctxt "Selection"
+msgid "Selected"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:166
+msgctxt "Selection"
+msgid "All"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:189
+msgctxt "Property"
+msgid "Source Brush"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:202
+msgctxt "Property"
+msgid "Replacement Brush"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:272
+msgctxt "Action"
+msgid "Replace"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:290
+msgctxt "Error"
+msgid "No source brush specified"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:291
+msgid "Please select source brush to find tiles with."
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:299
+msgctxt "Error"
+msgid "Source and replacement brushes are the same"
+msgstr ""
+
+#: Editor/Window/ReplaceByBrushWindow.cs:300
+msgctxt "Error"
+msgid "Cannot find and replace with same brush."
+msgstr ""
+
+#: Editor/Window/SelectBrushCategoriesWindow.cs:70
+msgctxt "Action"
+msgid "Select Brush Categories"
+msgstr ""

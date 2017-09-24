@@ -18,7 +18,16 @@
     "unity3d",
     "unity3d-package"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@rotorz/dotnet-exception-utils": "github:rotorz/dotnet-exception-utils#semver:^1.0.0",
+    "@rotorz/dotnet-json": "github:rotorz/dotnet-json#semver:^1.0.0",
+    "@rotorz/unity3d-custom-popup": "github:rotorz/unity3d-custom-popup#semver:^1.0.0",
+    "@rotorz/unity3d-editor-menu": "github:rotorz/unity3d-editor-menu#semver:^1.0.0",
+    "@rotorz/unity3d-localized-strings": "github:rotorz/unity3d-localized-strings#semver:^1.0.0",
+    "@rotorz/unity3d-package-utils": "github:rotorz/unity3d-package-utils#semver:^1.0.0",
+    "@rotorz/unity3d-reorderable-list": "github:rotorz/unity3d-reorderable-list#semver:^1.0.0",
+    "@rotorz/unity3d-utils": "github:rotorz/unity3d-utils#semver:^1.0.0"
+  },
   "devDependencies": {
     "fs-extra": "^4.0.2",
     "github-wiki-from-markdown-book": "^1.0.0",

@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5761a43bcc4224e8cecc2c8124d1d0, type: 3}
+  m_Name: Skin
+  m_EditorClassIdentifier: 
+  darkSkin:
+    texAddFindOrientation: {fileID: 2800000, guid: 9fdf1e67d47a42645873680515738a1c,
+      type: 3}
+    texAddVariationOverlay: {fileID: 2800000, guid: b63af8b7b97f4f949bcbce673e3e848a,
+      type: 3}
+    texAutotileBasicIcon: {fileID: 2800000, guid: ca7e4707851d0f948b08b06b35b473ed,
+      type: 3}
+    texAutotileBasicPreview: {fileID: 2800000, guid: c385afade8bd8814c98c15de4e8dc31f,
+      type: 3}
+    texAutotileExtendedIcon: {fileID: 2800000, guid: e9804a698f638cf4c803fdf53bacd7ca,
+      type: 3}
+    texAutotileExtendedPreview: {fileID: 2800000, guid: 960f380df0ae04d409749097ef96f9b9,
+      type: 3}
+    texBadge: {fileID: 2800000, guid: 7f7a8d625a607e44aabee73abd0b92d6, type: 3}
+    texBrushListBackground: {fileID: 2800000, guid: 8076463e5703a3c448a5acc8384bc4a0,
+      type: 3}
+    texBrushRound: {fileID: 2800000, guid: e0a1a87ddc4844541bc1ed2bca11350d, type: 3}
+    texBrushSquare: {fileID: 2800000, guid: 87de8fcf57c61d64f83006360b2e6442, type: 3}
+    texCaution: {fileID: 2800000, guid: 476c039d2a9e1e74abada82e1f373f41, type: 3}
+    texCentralize: {fileID: 2800000, guid: 5226b57f70e9e6246b9dd111b2c827c4, type: 3}
+    texCentralizeUsed: {fileID: 2800000, guid: 6b3169b22d7eb524fb75af8a2c33e745, type: 3}
+    texChunkToggle: {fileID: 2800000, guid: 0c64ed05a2160d64381bc2f06a4e1cc7, type: 3}
+    texContextHelp: {fileID: 2800000, guid: ab99f0a53017b30498837d9d27473d84, type: 3}
+    texContextMenu: {fileID: 2800000, guid: 481e589a32e80574b97b1aedf54a2d20, type: 3}
+    texCursor_Brush: {fileID: 2800000, guid: b9a57c1fafb65604eafa775e1f192d06, type: 3}
+    texCursor_Cycle: {fileID: 2800000, guid: 2958cfae3b824e3468d48ade5307afe2, type: 3}
+    texCursor_Fill: {fileID: 2800000, guid: 3e6d8c62c14782c43b36b5e408c69e96, type: 3}
+    texCursor_Line_Mac: {fileID: 2800000, guid: 03025c90fad127642807318f0e8a2e99,
+      type: 3}
+    texCursor_Line_Win: {fileID: 2800000, guid: 69cd1d29a6c1619449d2dfc3f2580d06,
+      type: 3}
+    texCursor_Picker: {fileID: 2800000, guid: 1f15543bbc5aacb4f8216d04a0441a81, type: 3}
+    texCursor_Plop: {fileID: 2800000, guid: d56dccc7ff82ae040a325b6edf001361, type: 3}
+    texCursor_PlopCycle: {fileID: 2800000, guid: 2c5b209af58d46c4188a95677003da73,
+      type: 3}
+    texCursor_Rectangle_Mac: {fileID: 2800000, guid: 37bf8e076e507fc428f49647757dc099,
+      type: 3}
+    texCursor_Rectangle_Win: {fileID: 2800000, guid: c9ff0d4b69b1faf4fb79670a192b05af,
+      type: 3}
+    texCursor_Spray: {fileID: 2800000, guid: a0389d7efaa65494187fd6e441e5de29, type: 3}
+    texDefaultWindowIcon: {fileID: 2800000, guid: b12fbd8711b25f9489cbd1493aab8e23,
+      type: 3}
+    texDownArrow: {fileID: 2800000, guid: 3d6d1a63e44e2374284f1e3402c729f2, type: 3}
+    texDropTargetBackground: {fileID: 2800000, guid: 7a71d838646086d48b33495a0a36b579,
+      type: 3}
+    texDroplet: {fileID: 2800000, guid: 3c59a3e6aed347f44bbd910141d2a714, type: 3}
+    texEditLabel: {fileID: 2800000, guid: 9048bf70ffb1c8f4ea746bac1fbd29ac, type: 3}
+    texEmptyPreview: {fileID: 2800000, guid: b22d043cf114c5d4fac7e8e117527e3d, type: 3}
+    texExtendedProperties_TitleHidden: {fileID: 2800000, guid: 62fc848d990c6be429a852d5c790ebc5,
+      type: 3}
+    texExtendedProperties_TitleHiddenPressed: {fileID: 2800000, guid: 5adee7fee142aea4b8debfa909c7b381,
+      type: 3}
+    texExtendedProperties_TitleShown: {fileID: 2800000, guid: d7a5e0e4374d79648b4bf905e4ebe4f6,
+      type: 3}
+    texExtendedProperties_TitleShownPressed: {fileID: 2800000, guid: cf377504479cb9d46953d0188ad20c7e,
+      type: 3}
+    texEyeOpen: {fileID: 2800000, guid: fe4459d37d1880548b6e7fb6b8990453, type: 3}
+    texEyeShut: {fileID: 2800000, guid: a189447bfd265804c9f88ac8ce39250a, type: 3}
+    texFallbackBrushPreview: {fileID: 2800000, guid: 5a2440498aa23d744942dacdcda2bb7e,
+      type: 3}
+    texFilterIcon: {fileID: 2800000, guid: fc5fe19e968fcf64484b84a0a2e6089a, type: 3}
+    texFlatToggleOff: {fileID: 2800000, guid: 7504e8d0f77575941915fc035b78702e, type: 3}
+    texFlatToggleOffActive: {fileID: 2800000, guid: df31c35eab34c4f42a826aa8bdd94029,
+      type: 3}
+    texFlatToggleOn: {fileID: 2800000, guid: 117a7e5187a61c049ab29986fe37142e, type: 3}
+    texFlatToggleOnActive: {fileID: 2800000, guid: 76d214526891a5f499243100093c1c55,
+      type: 3}
+    texGearButton: {fileID: 2800000, guid: f651061133dfff3409bfe39d68fccbb7, type: 3}
+    texGearTool: {fileID: 2800000, guid: dcf3ec7615e5ca841a0db4afecde9efb, type: 3}
+    texGotoTarget: {fileID: 2800000, guid: 1901198a513285642a69a2887bdcc906, type: 3}
+    texGotoTileset: {fileID: 2800000, guid: 4cbd24a9c706bc84bb6e626fef7b5936, type: 3}
+    texGridToggle: {fileID: 2800000, guid: 802a4be6519ae764382ed4d97ad1b6d7, type: 3}
+    texHorizontalSplitThick: {fileID: 2800000, guid: 378ff3499c58f204490e904e8f96f765,
+      type: 3}
+    texIconButtonActive: {fileID: 2800000, guid: 2015ce4d3bacda94b9b7a1a65c3f85c4,
+      type: 3}
+    texIconButtonNormal: {fileID: 2800000, guid: c3b47bde0c77b2f4fa5d99aa47f92fe2,
+      type: 3}
+    texIconButtonOn: {fileID: 2800000, guid: 6c136ff10781f0e4da9d464b110eb599, type: 3}
+    texIconButtonOnActive: {fileID: 2800000, guid: fbcfa8c52d639674f83e22f39af1b157,
+      type: 3}
+    texIcon_PresetTileSystem: {fileID: 2800000, guid: efdc2f5be29f8024da973d726aba3c3f,
+      type: 3}
+    texLeftArrow: {fileID: 2800000, guid: 51a47f51de45e4b40a6a99423f00f236, type: 3}
+    texLinkFields: {fileID: 2800000, guid: bbbaf90ab44926846839612a7cf6e88d, type: 3}
+    texListBox: {fileID: 2800000, guid: 3d769583e21cfb0469871e69be91de48, type: 3}
+    texListButtonActive: {fileID: 2800000, guid: d7b7aaa43b48ee24c8be7a4091f9ccc9,
+      type: 3}
+    texListButtonNormal: {fileID: 2800000, guid: 8797dfa88f7b98f46b9af4c729c55cae,
+      type: 3}
+    texListButtonOn: {fileID: 2800000, guid: 442726e5b5a252d43b73ee38d1157793, type: 3}
+    texListButtonOnActive: {fileID: 2800000, guid: 16ac2e304fbfd1a4d952fee8dcf5dca9,
+      type: 3}
+    texListView_Icons: {fileID: 2800000, guid: 0039f86a9b8462e4598e33ef0862ffb4, type: 3}
+    texListView_List: {fileID: 2800000, guid: ab3e931d76453d04381b02a06fcab15d, type: 3}
+    texLock: {fileID: 2800000, guid: 7cc25cd48e89f0e4e8717370be960812, type: 3}
+    texLockActive: {fileID: 2800000, guid: 1cde8bd7a12b44c4988b73c968bd8a67, type: 3}
+    texMappingArrow: {fileID: 2800000, guid: 01683f342eb6e5f4b991065acb569a02, type: 3}
+    texMenuButton: {fileID: 2800000, guid: 78861c234bb28734d95ad6c41f978354, type: 3}
+    texMiniSliderBorder: {fileID: 2800000, guid: 786ab47d508e8a44d88c8d339a89829e,
+      type: 3}
+    texMouseLeft: {fileID: 2800000, guid: 0da7776ce1762c5478ab1efa44ef43ad, type: 3}
+    texMouseRight: {fileID: 2800000, guid: 0c35d24ea014c7941b29b6ac4bc7d959, type: 3}
+    texOrientationBox: {fileID: 2800000, guid: 4f14866255911074c898b307febed60a, type: 3}
+    texOutlinedCornerBox: {fileID: 2800000, guid: 48d7245ae66cda94a8d671ed06797ebb,
+      type: 3}
+    texOverlay_Alias: {fileID: 2800000, guid: c9bb56a34fe13484dafde9ab6576ba81, type: 3}
+    texOverlay_Brush: {fileID: 2800000, guid: 10aa402c75ffd804e86324addd772e20, type: 3}
+    texPickBrush: {fileID: 2800000, guid: 9fbcd0397654f8842904f66137cd377e, type: 3}
+    texPickPrefab: {fileID: 2800000, guid: 1c82c12f43908d84a8bb288b0cb6c52d, type: 3}
+    texRandomize: {fileID: 2800000, guid: af2e0b1570b733546a315989ea02eab4, type: 3}
+    texRecentHistory: {fileID: 2800000, guid: 768516878b89ce74ab2bffed69693dd9, type: 3}
+    texRectangleFill: {fileID: 2800000, guid: 3a6e1044a754b1448be6acae1a192ce9, type: 3}
+    texRectangleOutline: {fileID: 2800000, guid: d5194854786979e48a98e762b2c8b335,
+      type: 3}
+    texRectanglePaintAround: {fileID: 2800000, guid: 485179aab8da3c94c855a935e28d0afd,
+      type: 3}
+    texRefreshIcon: {fileID: 2800000, guid: 7166ad25d0580cb4bbdcde5495cef2c7, type: 3}
+    texRightArrow: {fileID: 2800000, guid: c423449af8b2f37448a829c251051023, type: 3}
+    texRotationSelector: {fileID: 2800000, guid: 76c70a36b9c03524f83e6d99f886dce9,
+      type: 3}
+    texSmallButtonActive: {fileID: 2800000, guid: c438983b4f15b44448e69453238596d2,
+      type: 3}
+    texSmallButtonHover: {fileID: 2800000, guid: 7c987819ca5340842b57302f6ba1227a,
+      type: 3}
+    texSmallButtonNormal: {fileID: 2800000, guid: 3a2cb1c2093891540ad207287f065489,
+      type: 3}
+    texSmallGearButton: {fileID: 2800000, guid: c83528ebafc8ee84b9afaca48df8daa7,
+      type: 3}
+    texSmallRemoveButtonActive: {fileID: 2800000, guid: 553d188fa593c214dbc9a4310259d4a6,
+      type: 3}
+    texSmallRemoveButtonNormal: {fileID: 2800000, guid: 8b29966bdaefd3c4d8be8e09cdb41759,
+      type: 3}
+    texSnapCells: {fileID: 2800000, guid: 6893bb164a00c914f9e7764320abf3e7, type: 3}
+    texSnapFreeX: {fileID: 2800000, guid: 35013dbd25f621745a441ae1388374ad, type: 3}
+    texSnapFreeY: {fileID: 2800000, guid: 52112508287fb724b881bf5b1615ce81, type: 3}
+    texSnapPoints: {fileID: 2800000, guid: 197bdf9520fbfe74d88c3182c407ff6b, type: 3}
+    texSoftClipping: {fileID: 2800000, guid: 0ffb833fba5aa84468c9465d2e33dcab, type: 3}
+    texSortAsc: {fileID: 2800000, guid: a3e1f5d1cc2527243b58924c771a85e1, type: 3}
+    texSortDesc: {fileID: 2800000, guid: 1d07641555e7bee4a8dfc8b72f8255f0, type: 3}
+    texStatusWindowBackground: {fileID: 2800000, guid: b88510a271d189d4daf5291a2a806d0d,
+      type: 3}
+    texSwitchPrimarySecondary: {fileID: 2800000, guid: 6baef5a2d16faa44e82f35046e257054,
+      type: 3}
+    texTab: {fileID: 2800000, guid: 405132099977a0040a354fe3140bf136, type: 3}
+    texTabBackground: {fileID: 2800000, guid: 20e7909e7a9ff5949bdb1247d49dfe6b, type: 3}
+    texTextPartRound: {fileID: 2800000, guid: bdbba6f52f897de4fab7bc9a79c846d6, type: 3}
+    texTip: {fileID: 2800000, guid: 977519d8d10188a40aaa10ce2428793a, type: 3}
+    texToggleRotationalSymmetry: {fileID: 2800000, guid: 56808cfdd07c24b42bea093fe3211d26,
+      type: 3}
+    texToggleRotationalSymmetryOn: {fileID: 2800000, guid: 69e03a89fecd61f43bc8b4d2a8fe00cd,
+      type: 3}
+    texToggleTitleOff: {fileID: 2800000, guid: e68a3f3602edf764f8af0e6f585cd4f8, type: 3}
+    texToggleTitleOn: {fileID: 2800000, guid: a3579e2b8024bf449b068d7ab3bf07d1, type: 3}
+    texToolCycle: {fileID: 2800000, guid: f8609edb17588074e81f1bfafb34e7b9, type: 3}
+    texToolFill: {fileID: 2800000, guid: 731979658a185b542a03b4e409f89da1, type: 3}
+    texToolLine: {fileID: 2800000, guid: 8d7c8f1e00c2d564fa40ecfd52859539, type: 3}
+    texToolPaint: {fileID: 2800000, guid: b5efae05284c20a49a78865bf480f7b4, type: 3}
+    texToolPicker: {fileID: 2800000, guid: 869a69bc29885d54bb875bc3050fb7f6, type: 3}
+    texToolPlop: {fileID: 2800000, guid: 7bf2d32d6d9dfb0478a48ad5ea036920, type: 3}
+    texToolRectangle: {fileID: 2800000, guid: 3782914948c1437408ec2f97bb256380, type: 3}
+    texToolSpray: {fileID: 2800000, guid: 3597b6b8256f0934c8de8c43225b299c, type: 3}
+    texTooltip: {fileID: 2800000, guid: 5742684f87e54c24391d8ca160f569dd, type: 3}
+    texTooltipArrow: {fileID: 2800000, guid: 96aec7d8354891445b2b00a5b96f919f, type: 3}
+    texTransparentBox: {fileID: 2800000, guid: db2dd627ef07c6e44bdd003600072da7, type: 3}
+    texTrim: {fileID: 2800000, guid: 65814ea5c217612468598fa9b42fdecd, type: 3}
+    texVariationBox: {fileID: 2800000, guid: d4c1e8c92f03c1b4eb6e2b8ac5c7f6c9, type: 3}
+    texVariationOffsetSelector: {fileID: 2800000, guid: 3ff1dd44f502ef04cb7d4eeec488af81,
+      type: 3}
+    texVendorBadge: {fileID: 2800000, guid: 78626d4df7894dd49b3c06d154428e42, type: 3}
+    texZoomIcon: {fileID: 2800000, guid: b27f389095cbdbf4ba9c347904f72f70, type: 3}
+  lightSkin:
+    texAddFindOrientation: {fileID: 2800000, guid: 5c49046e7b9cfed46937c33ce6a33beb,
+      type: 3}
+    texAddVariationOverlay: {fileID: 2800000, guid: b63af8b7b97f4f949bcbce673e3e848a,
+      type: 3}
+    texAutotileBasicIcon: {fileID: 2800000, guid: ca7e4707851d0f948b08b06b35b473ed,
+      type: 3}
+    texAutotileBasicPreview: {fileID: 2800000, guid: f38858b7f799e8441b242ed3ab26dc27,
+      type: 3}
+    texAutotileExtendedIcon: {fileID: 2800000, guid: e9804a698f638cf4c803fdf53bacd7ca,
+      type: 3}
+    texAutotileExtendedPreview: {fileID: 2800000, guid: 50629cca504f21d40aaf8803765799f4,
+      type: 3}
+    texBadge: {fileID: 2800000, guid: 7f7a8d625a607e44aabee73abd0b92d6, type: 3}
+    texBrushListBackground: {fileID: 2800000, guid: 0c01e83c9240d594595eeb0440442498,
+      type: 3}
+    texBrushRound: {fileID: 2800000, guid: d84438ef6426c8a40a5b6fbb7a732178, type: 3}
+    texBrushSquare: {fileID: 2800000, guid: 346d253999d9a39459e88d23adeb1a43, type: 3}
+    texCaution: {fileID: 2800000, guid: 476c039d2a9e1e74abada82e1f373f41, type: 3}
+    texCentralize: {fileID: 2800000, guid: 1ec96b0366aab0c47999eee766501251, type: 3}
+    texCentralizeUsed: {fileID: 2800000, guid: 01d8184a3ef00d04ea3bff745c66bb6a, type: 3}
+    texChunkToggle: {fileID: 2800000, guid: 8ab77d21d55895a4b90067c77e4e9685, type: 3}
+    texContextHelp: {fileID: 2800000, guid: 3bacd70a70d14214eb239db13933a102, type: 3}
+    texContextMenu: {fileID: 2800000, guid: 25414a8669820144f83f1f3762d51bcc, type: 3}
+    texCursor_Brush: {fileID: 2800000, guid: b9a57c1fafb65604eafa775e1f192d06, type: 3}
+    texCursor_Cycle: {fileID: 2800000, guid: 2958cfae3b824e3468d48ade5307afe2, type: 3}
+    texCursor_Fill: {fileID: 2800000, guid: 3e6d8c62c14782c43b36b5e408c69e96, type: 3}
+    texCursor_Line_Mac: {fileID: 2800000, guid: 03025c90fad127642807318f0e8a2e99,
+      type: 3}
+    texCursor_Line_Win: {fileID: 2800000, guid: 69cd1d29a6c1619449d2dfc3f2580d06,
+      type: 3}
+    texCursor_Picker: {fileID: 2800000, guid: 1f15543bbc5aacb4f8216d04a0441a81, type: 3}
+    texCursor_Plop: {fileID: 2800000, guid: d56dccc7ff82ae040a325b6edf001361, type: 3}
+    texCursor_PlopCycle: {fileID: 2800000, guid: 2c5b209af58d46c4188a95677003da73,
+      type: 3}
+    texCursor_Rectangle_Mac: {fileID: 2800000, guid: 37bf8e076e507fc428f49647757dc099,
+      type: 3}
+    texCursor_Rectangle_Win: {fileID: 2800000, guid: c9ff0d4b69b1faf4fb79670a192b05af,
+      type: 3}
+    texCursor_Spray: {fileID: 2800000, guid: a0389d7efaa65494187fd6e441e5de29, type: 3}
+    texDefaultWindowIcon: {fileID: 2800000, guid: 34654ffdde88ea749aa2247efbc4607b,
+      type: 3}
+    texDownArrow: {fileID: 2800000, guid: c9da143dbc1bbb9478f59a44736ab104, type: 3}
+    texDropTargetBackground: {fileID: 2800000, guid: c55fdadcd1e14414f952b007329f21da,
+      type: 3}
+    texDroplet: {fileID: 2800000, guid: 3c59a3e6aed347f44bbd910141d2a714, type: 3}
+    texEditLabel: {fileID: 2800000, guid: 182be103ad4ba0e418e55e8c776100cc, type: 3}
+    texEmptyPreview: {fileID: 2800000, guid: b22d043cf114c5d4fac7e8e117527e3d, type: 3}
+    texExtendedProperties_TitleHidden: {fileID: 2800000, guid: 580fa23154fff5c449e0109a64af469c,
+      type: 3}
+    texExtendedProperties_TitleHiddenPressed: {fileID: 2800000, guid: 485d1b97c90f996419356251f2769ee3,
+      type: 3}
+    texExtendedProperties_TitleShown: {fileID: 2800000, guid: ebdeb2b2ea4f4694b9880feb0330f7fb,
+      type: 3}
+    texExtendedProperties_TitleShownPressed: {fileID: 2800000, guid: e6cd9a47271176b4f80712562a4cacf5,
+      type: 3}
+    texEyeOpen: {fileID: 2800000, guid: 4b3b982e12d84f04ba195b89ebbb89c3, type: 3}
+    texEyeShut: {fileID: 2800000, guid: 24ed0b813df65c8479e5cf2e61c4196d, type: 3}
+    texFallbackBrushPreview: {fileID: 2800000, guid: 5a2440498aa23d744942dacdcda2bb7e,
+      type: 3}
+    texFilterIcon: {fileID: 2800000, guid: a47663178022a8c4e82672c74d9a4954, type: 3}
+    texFlatToggleOff: {fileID: 2800000, guid: 1fd394fd52f8dc34892c93c5cdefe2c0, type: 3}
+    texFlatToggleOffActive: {fileID: 2800000, guid: c03c4ace79bf97a48813473aca2d1dbb,
+      type: 3}
+    texFlatToggleOn: {fileID: 2800000, guid: c73389490fe483447a5f3357da7d2040, type: 3}
+    texFlatToggleOnActive: {fileID: 2800000, guid: e49ee6ff7b33c9049854ffe8932ecb67,
+      type: 3}
+    texGearButton: {fileID: 2800000, guid: 836a8fc28ac42f1409eedea7a82a4f0b, type: 3}
+    texGearTool: {fileID: 2800000, guid: 8fc9235a47714604e8f468fb5717070a, type: 3}
+    texGotoTarget: {fileID: 2800000, guid: 81764afdcf1a76a45a5110132466380b, type: 3}
+    texGotoTileset: {fileID: 2800000, guid: c5599df43f3d38744a29bc0f041f1ba9, type: 3}
+    texGridToggle: {fileID: 2800000, guid: 55bd208fafa017e43aae6cf26a32525b, type: 3}
+    texHorizontalSplitThick: {fileID: 2800000, guid: f2d7051926ea6e34f98e156cd02f240f,
+      type: 3}
+    texIconButtonActive: {fileID: 2800000, guid: 2015ce4d3bacda94b9b7a1a65c3f85c4,
+      type: 3}
+    texIconButtonNormal: {fileID: 2800000, guid: c3b47bde0c77b2f4fa5d99aa47f92fe2,
+      type: 3}
+    texIconButtonOn: {fileID: 2800000, guid: 6c136ff10781f0e4da9d464b110eb599, type: 3}
+    texIconButtonOnActive: {fileID: 2800000, guid: fbcfa8c52d639674f83e22f39af1b157,
+      type: 3}
+    texIcon_PresetTileSystem: {fileID: 2800000, guid: efdc2f5be29f8024da973d726aba3c3f,
+      type: 3}
+    texLeftArrow: {fileID: 2800000, guid: 13296a4ad0fa53942af10dce680b53c7, type: 3}
+    texLinkFields: {fileID: 2800000, guid: 3682c330531f77748bd2c106939a7327, type: 3}
+    texListBox: {fileID: 2800000, guid: 5db2d1f80fb693c41a296795028b72e3, type: 3}
+    texListButtonActive: {fileID: 2800000, guid: d7b7aaa43b48ee24c8be7a4091f9ccc9,
+      type: 3}
+    texListButtonNormal: {fileID: 2800000, guid: 8797dfa88f7b98f46b9af4c729c55cae,
+      type: 3}
+    texListButtonOn: {fileID: 2800000, guid: 26d13f0b4a0f0604698de34e0da298bf, type: 3}
+    texListButtonOnActive: {fileID: 2800000, guid: 887e8a111465fc745aa8e4ddc125f80e,
+      type: 3}
+    texListView_Icons: {fileID: 2800000, guid: ac50db66fa76bba45ac3826c9cf5e971, type: 3}
+    texListView_List: {fileID: 2800000, guid: 57b22e4ff2f379d4dafae22187bdb49a, type: 3}
+    texLock: {fileID: 2800000, guid: 114c762c277655848bd25bedbe129625, type: 3}
+    texLockActive: {fileID: 2800000, guid: 1cde8bd7a12b44c4988b73c968bd8a67, type: 3}
+    texMappingArrow: {fileID: 2800000, guid: d23c6bc953d3d964aa3a8f82f954dbf9, type: 3}
+    texMenuButton: {fileID: 2800000, guid: 8288c5b5dd5442140b061a6b83de2dca, type: 3}
+    texMiniSliderBorder: {fileID: 2800000, guid: 343efee9f7ecb84438a26d24246bcc2d,
+      type: 3}
+    texMouseLeft: {fileID: 2800000, guid: a7a43466ff2cc7e4dbb112bf00a054bf, type: 3}
+    texMouseRight: {fileID: 2800000, guid: 434d876904086c847b76c6ed455df719, type: 3}
+    texOrientationBox: {fileID: 2800000, guid: a27c4565fe23a3c408a61afc03927528, type: 3}
+    texOutlinedCornerBox: {fileID: 2800000, guid: 5ee8e26884e15c6469776cc511861956,
+      type: 3}
+    texOverlay_Alias: {fileID: 2800000, guid: c9bb56a34fe13484dafde9ab6576ba81, type: 3}
+    texOverlay_Brush: {fileID: 2800000, guid: 10aa402c75ffd804e86324addd772e20, type: 3}
+    texPickBrush: {fileID: 2800000, guid: 581b8115d5b8b604ba6a8c952bc403f8, type: 3}
+    texPickPrefab: {fileID: 2800000, guid: 103f0c5c669a50f4db5089645e8de695, type: 3}
+    texRandomize: {fileID: 2800000, guid: 95e9438f5ab11344b8ff7799dc611062, type: 3}
+    texRecentHistory: {fileID: 2800000, guid: 44157e3b025cd374682eee1a3e72c74b, type: 3}
+    texRectangleFill: {fileID: 2800000, guid: 1cca440066102b54080fecc782d49dfd, type: 3}
+    texRectangleOutline: {fileID: 2800000, guid: ced1a3362f6721442b3c084187df439f,
+      type: 3}
+    texRectanglePaintAround: {fileID: 2800000, guid: 4070f348e66c9c5409f84cf99a8905e2,
+      type: 3}
+    texRefreshIcon: {fileID: 2800000, guid: 736a3559ebdf7b045a23c783e152e5b4, type: 3}
+    texRightArrow: {fileID: 2800000, guid: cf47786aca5c41a42838c55509e14822, type: 3}
+    texRotationSelector: {fileID: 2800000, guid: c1a1438c70d9b734b9c6a2a1f8c935e9,
+      type: 3}
+    texSmallButtonActive: {fileID: 2800000, guid: bc35a08a66cca3d418402f415e353fe1,
+      type: 3}
+    texSmallButtonHover: {fileID: 2800000, guid: 2cacf1bac03c0b84eabc3804802a85d2,
+      type: 3}
+    texSmallButtonNormal: {fileID: 2800000, guid: 4ac0b778373aee4498ff33b17c1c197d,
+      type: 3}
+    texSmallGearButton: {fileID: 2800000, guid: 2d39e62eb569fd0448ad18d0a339eb25,
+      type: 3}
+    texSmallRemoveButtonActive: {fileID: 2800000, guid: 553d188fa593c214dbc9a4310259d4a6,
+      type: 3}
+    texSmallRemoveButtonNormal: {fileID: 2800000, guid: 8b29966bdaefd3c4d8be8e09cdb41759,
+      type: 3}
+    texSnapCells: {fileID: 2800000, guid: 1f47c4b74fd612f4692cc6a7ef756886, type: 3}
+    texSnapFreeX: {fileID: 2800000, guid: 372c3b85cdd2cb247aca9ac4f68e27b2, type: 3}
+    texSnapFreeY: {fileID: 2800000, guid: 34d69d04f7e91b24cb8f290bd3a05cb1, type: 3}
+    texSnapPoints: {fileID: 2800000, guid: 04ed6f3f2b5114f4a9bf632fcfff1569, type: 3}
+    texSoftClipping: {fileID: 2800000, guid: d2942b6370dbdab448677e5c697613d4, type: 3}
+    texSortAsc: {fileID: 2800000, guid: 5a8e8f054e2777b409212f5dcba40d4f, type: 3}
+    texSortDesc: {fileID: 2800000, guid: 01cfdf15af77a2148bc45e32edfa3f30, type: 3}
+    texStatusWindowBackground: {fileID: 2800000, guid: b88510a271d189d4daf5291a2a806d0d,
+      type: 3}
+    texSwitchPrimarySecondary: {fileID: 2800000, guid: 55e5a0d89b33b20448f2841510581f52,
+      type: 3}
+    texTab: {fileID: 2800000, guid: bda394d222d007140b2d6c7bd9448e48, type: 3}
+    texTabBackground: {fileID: 2800000, guid: 20e7909e7a9ff5949bdb1247d49dfe6b, type: 3}
+    texTextPartRound: {fileID: 2800000, guid: 0430894c04e4486409bd468428a97a6d, type: 3}
+    texTip: {fileID: 2800000, guid: eb83234ffb5b22742953bb99b1d56ffa, type: 3}
+    texToggleRotationalSymmetry: {fileID: 2800000, guid: 4cb1170b0cae61540ac932bd6cfb602c,
+      type: 3}
+    texToggleRotationalSymmetryOn: {fileID: 2800000, guid: fa1b96ffef8d9df4dac08152c5d14910,
+      type: 3}
+    texToggleTitleOff: {fileID: 2800000, guid: 3c82572d9371197489a195999b6b36ba, type: 3}
+    texToggleTitleOn: {fileID: 2800000, guid: b586a72bd68a08c4eadc0b0c4a943e5a, type: 3}
+    texToolCycle: {fileID: 2800000, guid: 3f3d8f946932d7543b68e42ecb1154a9, type: 3}
+    texToolFill: {fileID: 2800000, guid: d376318a77e27d349b28a40565e9f7f1, type: 3}
+    texToolLine: {fileID: 2800000, guid: b04f9deef069c3c4d8699f961b69dd3b, type: 3}
+    texToolPaint: {fileID: 2800000, guid: 1a84505ab2e8c1e47ad2dca0f8667774, type: 3}
+    texToolPicker: {fileID: 2800000, guid: cc241beeb39caf847aa51f8707440341, type: 3}
+    texToolPlop: {fileID: 2800000, guid: f8737dc775535cd4f822afada66a0b6b, type: 3}
+    texToolRectangle: {fileID: 2800000, guid: a8b899bf35edf684d8624baf9b6e8b25, type: 3}
+    texToolSpray: {fileID: 2800000, guid: fdd0de17b1763ba45b3b9fa3b3ef341d, type: 3}
+    texTooltip: {fileID: 2800000, guid: cb2341db4a62b4741ae684167a98c8f8, type: 3}
+    texTooltipArrow: {fileID: 2800000, guid: cbf2d21e28f0d1f4681547639a262ac1, type: 3}
+    texTransparentBox: {fileID: 2800000, guid: db2dd627ef07c6e44bdd003600072da7, type: 3}
+    texTrim: {fileID: 2800000, guid: 722ca42c48339d1428afc1d67e5f84f1, type: 3}
+    texVariationBox: {fileID: 2800000, guid: cfc9e32bcfc832f4881048cd32c92e86, type: 3}
+    texVariationOffsetSelector: {fileID: 2800000, guid: 03cf88a30d959e642968ea86a6ab129c,
+      type: 3}
+    texVendorBadge: {fileID: 2800000, guid: 8bd009c8c47b7564ab2a12a5c20c365a, type: 3}
+    texZoomIcon: {fileID: 2800000, guid: 805c919bda52a2d44a63285c74e87b2a, type: 3}

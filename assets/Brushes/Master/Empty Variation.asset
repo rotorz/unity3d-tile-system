@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89502a394fcc9746bd8ea9b1b9284ed, type: 3}
+  m_Name: Empty Variation
+  m_EditorClassIdentifier: 
+  disableImmediatePreview: 0
+  customPreviewImage: {fileID: 0}
+  customPreviewDesignTime: 1
+  _static: 0
+  _smooth: 0
+  visibility: 1
+  group: 0
+  overrideLayer: 0
+  layer: 0
+  overrideTag: 0
+  tag: Untagged
+  _categoryId: 0
+  forceLegacySideways: 1
+  overrideTransforms: 0
+  scaleMode: 1
+  applyPrefabTransform: 0
+  transformScale: {x: 1, y: 1, z: 1}
+  _userFlags: 0
+  _userFlagLabels: 
+  addCollider: 0
+  colliderType: 1
+  alwaysAddContainer: 0
