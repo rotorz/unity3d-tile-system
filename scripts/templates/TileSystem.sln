@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileSystem.Runtime_Editor", "TileSystem.Runtime_Editor\TileSystem.Runtime_Editor.csproj", "{009B6934-0F79-48A1-8641-E737CBB51233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileSystem.Runtime_Standalone", "TileSystem.Runtime_Standalone\TileSystem.Runtime_Standalone.csproj", "{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileSystem.Editor", "TileSystem.Editor\TileSystem.Editor.csproj", "{86041F5F-F2EA-4D33-963A-722179D97022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Debug|x86.Build.0 = Debug|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|x86.ActiveCfg = Release|Any CPU
+		{009B6934-0F79-48A1-8641-E737CBB51233}.Release|x86.Build.0 = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E23D37E-3FB1-4F12-AD23-DAD61A63A351}.Release|x86.Build.0 = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Debug|x86.Build.0 = Debug|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|x86.ActiveCfg = Release|Any CPU
+		{86041F5F-F2EA-4D33-963A-722179D97022}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RotorzTileSystem\RotorzTileSystem.csproj
+		version = 1.1.2
+	EndGlobalSection
+EndGlobal

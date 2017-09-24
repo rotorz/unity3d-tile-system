@@ -20,6 +20,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "github-wiki-from-markdown-book": "^1.0.0"
+    "fs-extra": "^4.0.2",
+    "github-wiki-from-markdown-book": "^1.0.0",
+    "glob": "^7.1.2",
+    "nunjucks": "^3.0.1"
   }
 }

@@ -1,0 +1,3 @@
+﻿using UnityEngine;
+
+[assembly: AssemblyIsEditorAssembly]
