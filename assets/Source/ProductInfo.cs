@@ -17,11 +17,11 @@ namespace Rotorz.Tile
         /// <summary>
         /// Gets the version of this build.
         /// </summary>
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
         /// <summary>
         /// Gets the commit hash of this build.
         /// </summary>
-        public const string CommitHash = "a5afe179f5662a1bb195bb15aa2b779f91e4fb8d";
+        public const string CommitHash = "2eac247360cf876fbbccfd55bac88e8ebf89aa8a";
         /// <summary>
         /// Gets the release type of this build.
         /// </summary>
