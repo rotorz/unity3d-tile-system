@@ -279,31 +279,22 @@ namespace Rotorz.Settings.Persisted.Json
                 throw new InvalidOperationException("Cannot save settings because 'Path' string is null or empty.");
             }
 
-            Stream stream = null;
+            JsonNode jsonSettings = new JsonObjectNode();
 
             if (File.Exists(this.Path)) {
-                stream = new FileStream(this.Path, FileMode.Open, FileAccess.Read);
-            }
-
-            try {
-                if (this._data.Sync(JsonUtility.ReadFrom(stream), this.Manager)) {
-                    if (stream != null) {
-                        stream.Close();
-                    }
-
-                    // Ensure that path exists!
-                    string directoryName = System.IO.Path.GetDirectoryName(this.Path);
-                    if (!Directory.Exists(directoryName)) {
-                        Directory.CreateDirectory(directoryName);
-                    }
-
-                    File.WriteAllText(this.Path, this._data.ToJson());
+                using (var stream = new FileStream(this.Path, FileMode.Open, FileAccess.Read)) {
+                    jsonSettings = JsonUtility.ReadFrom(stream);
                 }
             }
-            finally {
-                if (stream != null) {
-                    stream.Close();
+
+            if (this._data.Sync(jsonSettings, this.Manager)) {
+                // Ensure that path exists!
+                string directoryName = System.IO.Path.GetDirectoryName(this.Path);
+                if (!Directory.Exists(directoryName)) {
+                    Directory.CreateDirectory(directoryName);
                 }
+
+                File.WriteAllText(this.Path, this._data.ToJson());
             }
         }
     }
