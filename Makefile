@@ -5,9 +5,12 @@ PACKAGE_NAME := rotorz/unity3d-tile-system
 PACKAGE_COPYRIGHT := Rotorz Limited. All rights reserved.
 PACKAGE_LANG_CLASS := TileLang
 
+WIKI_REPOSITORY_URL := https://github.com/rotorz/unity3d-tile-system.wiki.git
+DOCS_BOOK_YAML_PATH := ./docs/book.yaml
 
-EDITOR_DIR := ./Editor
-LANGUAGES_DIR := ./Languages
+
+EDITOR_DIR := ./assets/Editor
+LANGUAGES_DIR := ./assets/Languages
 
 LANGUAGE_SOURCES := $(shell find $(EDITOR_DIR) -type f \( -name "*.cs" -or -name "*.cs.template" \))
 LANGUAGE_POT_OUTPUT := $(LANGUAGES_DIR)/language.pot
