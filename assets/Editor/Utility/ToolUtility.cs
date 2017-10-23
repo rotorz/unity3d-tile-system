@@ -16,7 +16,7 @@ namespace Rotorz.Tile.Editor
     {
         static ToolUtility()
         {
-            EditorApplication.playmodeStateChanged += OnPlaymodeStateChanged;
+            EditorApplication.playModeStateChanged += OnPlayModeStateChanged;
             Undo.undoRedoPerformed += OnUndoRedoPerformed;
 
             var group = AssetSettingManagement.GetGroup("ToolUtility");
@@ -95,7 +95,7 @@ namespace Rotorz.Tile.Editor
 
         #region Events
 
-        private static void OnPlaymodeStateChanged()
+        private static void OnPlayModeStateChanged(PlayModeStateChange change)
         {
             // Ensure that tool is deactivated when switching between play/edit mode.
             ToolManager.Instance.CurrentTool = null;

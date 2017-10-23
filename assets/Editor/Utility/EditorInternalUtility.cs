@@ -23,7 +23,7 @@ namespace Rotorz.Tile.Editor
             InitRepaintGameViewsDelegate();
 
             EditorApplication.update += OnEditorUpdate;
-            EditorApplication.playmodeStateChanged += OnPlaymodeStateChanged;
+            EditorApplication.playModeStateChanged += OnPlayModeStateChanged;
         }
 
         internal enum HoverTipState
@@ -62,7 +62,7 @@ namespace Rotorz.Tile.Editor
             }
         }
 
-        private static void OnPlaymodeStateChanged()
+        private static void OnPlayModeStateChanged(PlayModeStateChange change)
         {
             if (!(InternalUtility.Instance is EditorInternalUtility)) {
                 InternalUtility.Instance = new EditorInternalUtility();
