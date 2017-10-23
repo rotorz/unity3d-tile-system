@@ -57,7 +57,7 @@ namespace Rotorz.Tile.Editor
         public Light[] Lights {
             get {
                 this.Setup();
-                return this.previewUtility.m_Light;
+                return this.previewUtility.lights;
             }
         }
 
@@ -85,18 +85,18 @@ namespace Rotorz.Tile.Editor
             this.hasSetup = true;
 
             this.previewUtility = new PreviewRenderUtility(true);
-            this.previewUtility.m_CameraFieldOfView = 30f;
+            this.previewUtility.cameraFieldOfView = 30f;
 
             // Camera should only render layer 3 to avoid rendering scene!
-            this.previewUtility.m_Camera.clearFlags = CameraClearFlags.Nothing;
-            this.previewUtility.m_Camera.cullingMask = 1 << 3;
+            this.previewUtility.camera.clearFlags = CameraClearFlags.Nothing;
+            this.previewUtility.camera.cullingMask = 1 << 3;
 
             // Present lights with similar settings as default.
-            this.previewUtility.m_Light[0].transform.rotation = Quaternion.Euler(40f, 40f, 0f);
+            this.previewUtility.lights[0].transform.rotation = Quaternion.Euler(40f, 40f, 0f);
 
             // This must be two times more intense than with Unity 4.
-            this.previewUtility.m_Light[0].intensity = 1.4f;
-            this.previewUtility.m_Light[1].intensity = 1.4f;
+            this.previewUtility.lights[0].intensity = 1.4f;
+            this.previewUtility.lights[1].intensity = 1.4f;
 
             // Create simple 1x1 tile system for painting!
             var tileSystemGO = new GameObject("{Preview}Tile System");
@@ -232,13 +232,13 @@ namespace Rotorz.Tile.Editor
                 var quaternion = Quaternion.Euler(-rotation.y, -rotation.x, 0f);
                 var position = bounds.center - quaternion * (Vector3.forward * num);
 
-                this.previewUtility.m_Camera.transform.position = position;
-                this.previewUtility.m_Camera.transform.rotation = quaternion;
-                this.previewUtility.m_Camera.nearClipPlane = num - magnitude * 1.1f;
-                this.previewUtility.m_Camera.farClipPlane = num + magnitude * 1.1f;
+                this.previewUtility.camera.transform.position = position;
+                this.previewUtility.camera.transform.rotation = quaternion;
+                this.previewUtility.camera.nearClipPlane = num - magnitude * 1.1f;
+                this.previewUtility.camera.farClipPlane = num + magnitude * 1.1f;
 
                 // Actually render preview!
-                this.previewUtility.m_Camera.Render();
+                this.previewUtility.camera.Render();
 
                 return true;
             }
