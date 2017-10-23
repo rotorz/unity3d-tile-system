@@ -699,8 +699,10 @@ namespace Rotorz.Tile
         /// <remarks>
         /// <para>Flag is automatically cleared upon next force refresh.</para>
         /// </remarks>
+#pragma warning disable 414
         [SerializeField, FormerlySerializedAs("_hintForceRefresh")]
         private bool hintForceRefresh;
+#pragma warning restore 414
 
         [SerializeField, FormerlySerializedAs("_lastBuildPrefabPath")]
         private string lastBuildPrefabPath;
