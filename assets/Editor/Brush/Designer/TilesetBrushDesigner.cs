@@ -107,7 +107,6 @@ namespace Rotorz.Tile.Editor
         private void DrawTilesetBrushInfoSection()
         {
             var tileset = this.TilesetBrush.Tileset;
-            var autotileBrush = this.Brush as AutotileBrush;
 
             GUILayout.BeginVertical();
 
