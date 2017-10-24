@@ -21,7 +21,7 @@ namespace Rotorz.Tile
         /// <summary>
         /// Gets the commit hash of this build.
         /// </summary>
-        public const string CommitHash = "2eac247360cf876fbbccfd55bac88e8ebf89aa8a";
+        public const string CommitHash = "83b0e33dbb3022a763bbfe9c1fb1224daabcaefb";
         /// <summary>
         /// Gets the release type of this build.
         /// </summary>
