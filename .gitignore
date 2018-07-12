@@ -9,9 +9,19 @@ npm-debug.log
 /temp/
 /_private/
 
+# ===================== #
+# Working Files - Unity #
+# ===================== #
+/Library/
+/Packages/
+/ProjectSettings/
+/*.csproj
+/*.sln
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
+/.vs/
 bin
 obj
 ExportedObj/
