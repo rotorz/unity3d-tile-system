@@ -4,10 +4,13 @@ A tile system extension for the Unity game engine supporting 2D and 3D tiles.
 
 
 ```sh
-$ npm install --save rotorz/unity3d-tile-system
+$ yarn add rotorz/unity3d-tile-system
 ```
 
-This package is compatible with [unity3d-package-syncer](https://github.com/rotorz/unity3d-package-syncer).
+This package is compatible with the [unity3d-package-syncer][tool] tool. Refer to the
+tools' [README][tool] for information on syncing packages into a Unity project.
+
+[tool]: https://github.com/rotorz/unity3d-package-syncer
 
 
 ## Contribution Agreement
