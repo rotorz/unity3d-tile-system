@@ -1,0 +1,8 @@
+{
+    "name": "rotorz.unity3d-tile-system",
+    "references": [
+        "rotorz.dotnet-exception-utils",
+        "rotorz.unity3d-reorderable-list",
+        "rotorz.unity3d-utils"
+    ]
+}

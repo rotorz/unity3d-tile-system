@@ -1,0 +1,15 @@
+{
+    "name": "rotorz.unity3d-tile-system.editor",
+    "references": [
+        "rotorz.unity3d-tile-system",
+        "rotorz.dotnet-exception-utils",
+        "rotorz.dotnet-json",
+        "rotorz.unity3d-custom-popup.editor",
+        "rotorz.unity3d-editor-menu.editor",
+        "rotorz.unity3d-localized-strings.editor",
+        "rotorz.unity3d-package-utils.editor",
+        "rotorz.unity3d-reorderable-list.editor",
+        "rotorz.unity3d-utils",
+        "rotorz.unity3d-utils.editor"
+    ]
+}
