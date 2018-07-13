@@ -1,6 +1,6 @@
 {
   "name": "@rotorz/unity3d-tile-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tile system extension for the Unity game engine supporting 2D and 3D tiles.",
   "main": "index.js",
   "scripts": {
